@@ -1,0 +1,857 @@
+{
+  "date": "2019-02-17",
+  "name": "Cape Peninsula Marathon 2019",
+  "distance": 21.1,
+  "results": [
+    {
+      "Position": 47,
+      "Race No": 5624,
+      "Name": "Jonas GENSICKE",
+      "Time": "01:29:41",
+      "Category": "Senior",
+      "Category Position": 34,
+      "Gender": "Male",
+      "Gender Position": 44
+    },
+    {
+      "Position": 125,
+      "Race No": 6301,
+      "Name": "Charles PARRY",
+      "Time": "01:41:21",
+      "Category": "50-59",
+      "Category Position": 13,
+      "Gender": "Male",
+      "Gender Position": 105
+    },
+    {
+      "Position": 159,
+      "Race No": 5623,
+      "Name": "Andreas GENSICKE",
+      "Time": "01:43:29",
+      "Category": "50-59",
+      "Category Position": 17,
+      "Gender": "Male",
+      "Gender Position": 132
+    },
+    {
+      "Position": 316,
+      "Race No": 7177,
+      "Name": "Paul GEARY",
+      "Time": "01:53:40",
+      "Category": "Senior",
+      "Category Position": 155,
+      "Gender": "Male",
+      "Gender Position": 256
+    },
+    {
+      "Position": 324,
+      "Race No": 7071,
+      "Name": "Ruan DE JONGH",
+      "Time": "01:53:52",
+      "Category": "Senior",
+      "Category Position": 159,
+      "Gender": "Male",
+      "Gender Position": 263
+    },
+    {
+      "Position": 455,
+      "Race No": 5788,
+      "Name": "Lily Joan ITHIER",
+      "Time": "01:58:46",
+      "Category": "40-49",
+      "Category Position": 21,
+      "Gender": "Female",
+      "Gender Position": 108
+    },
+    {
+      "Position": 518,
+      "Race No": 6884,
+      "Name": "Bernard ADAMS",
+      "Time": "02:00:07",
+      "Category": "40-49",
+      "Category Position": 82,
+      "Gender": "Male",
+      "Gender Position": 394
+    },
+    {
+      "Position": 617,
+      "Race No": 7534,
+      "Name": "Anwar OMAR",
+      "Time": "02:03:49",
+      "Category": "50-59",
+      "Category Position": 61,
+      "Gender": "Male",
+      "Gender Position": 448
+    },
+    {
+      "Position": 629,
+      "Race No": 7477,
+      "Name": "Sumanthra MOODLEY",
+      "Time": "02:04:26",
+      "Category": "50-59",
+      "Category Position": 16,
+      "Gender": "Female",
+      "Gender Position": 173
+    },
+    {
+      "Position": 634,
+      "Race No": 7730,
+      "Name": "Brenda STEVENSON",
+      "Time": "02:04:42",
+      "Category": "60-69",
+      "Category Position": 5,
+      "Gender": "Female",
+      "Gender Position": 178
+    },
+    {
+      "Position": 655,
+      "Race No": 7673,
+      "Name": "Christopher SCHNEHAGE",
+      "Time": "02:05:29",
+      "Category": "60-69",
+      "Category Position": 19,
+      "Gender": "Male",
+      "Gender Position": 467
+    },
+    {
+      "Position": 694,
+      "Race No": 5975,
+      "Name": "Michael LE SUEUR",
+      "Time": "02:06:29",
+      "Category": "70+",
+      "Category Position": 4,
+      "Gender": "Male",
+      "Gender Position": 490
+    },
+    {
+      "Position": 828,
+      "Race No": 7814,
+      "Name": "Delene WALLER",
+      "Time": "02:09:44",
+      "Category": "50-59",
+      "Category Position": 30,
+      "Gender": "Female",
+      "Gender Position": 266
+    },
+    {
+      "Position": 839,
+      "Race No": 5401,
+      "Name": "Judith DAVIDSE",
+      "Time": "02:10:22",
+      "Category": "Senior",
+      "Category Position": 169,
+      "Gender": "Female",
+      "Gender Position": 273
+    },
+    {
+      "Position": 840,
+      "Race No": 7223,
+      "Name": "Heather HILL",
+      "Time": "02:10:22",
+      "Category": "40-49",
+      "Category Position": 59,
+      "Gender": "Female",
+      "Gender Position": 274
+    },
+    {
+      "Position": 841,
+      "Race No": 6542,
+      "Name": "Alison SMITH",
+      "Time": "02:10:22",
+      "Category": "40-49",
+      "Category Position": 60,
+      "Gender": "Female",
+      "Gender Position": 275
+    },
+    {
+      "Position": 853,
+      "Race No": 5406,
+      "Name": "John DAWES",
+      "Time": "02:10:53",
+      "Category": "50-59",
+      "Category Position": 84,
+      "Gender": "Male",
+      "Gender Position": 573
+    },
+    {
+      "Position": 854,
+      "Race No": 7442,
+      "Name": "Paul MEESER",
+      "Time": "02:10:55",
+      "Category": "Senior",
+      "Category Position": 320,
+      "Gender": "Male",
+      "Gender Position": 574
+    },
+    {
+      "Position": 855,
+      "Race No": 5407,
+      "Name": "Melanie DAWES",
+      "Time": "02:10:57",
+      "Category": "Senior",
+      "Category Position": 172,
+      "Gender": "Female",
+      "Gender Position": 281
+    },
+    {
+      "Position": 885,
+      "Race No": 6494,
+      "Name": "Mervin SCHNEHAGE",
+      "Time": "02:11:34",
+      "Category": "40-49",
+      "Category Position": 142,
+      "Gender": "Male",
+      "Gender Position": 590
+    },
+    {
+      "Position": 898,
+      "Race No": 6552,
+      "Name": "Julian SMITH",
+      "Time": "02:12:09",
+      "Category": "Senior",
+      "Category Position": 328,
+      "Gender": "Male",
+      "Gender Position": 599
+    },
+    {
+      "Position": 903,
+      "Race No": 5040,
+      "Name": "Reime AFRICA",
+      "Time": "02:12:16",
+      "Category": "Senior",
+      "Category Position": 330,
+      "Gender": "Male",
+      "Gender Position": 603
+    },
+    {
+      "Position": 966,
+      "Race No": 6628,
+      "Name": "Sandra SWARTZ",
+      "Time": "02:13:51",
+      "Category": "50-59",
+      "Category Position": 42,
+      "Gender": "Female",
+      "Gender Position": 329
+    },
+    {
+      "Position": 1153,
+      "Race No": 5009,
+      "Name": "Brenton ABRAHAMS",
+      "Time": "02:19:18",
+      "Category": "50-59",
+      "Category Position": 112,
+      "Gender": "Male",
+      "Gender Position": 717
+    },
+    {
+      "Position": 1156,
+      "Race No": 5012,
+      "Name": "Felicia ABRAHAMS",
+      "Time": "02:19:19",
+      "Category": "40-49",
+      "Category Position": 117,
+      "Gender": "Female",
+      "Gender Position": 437
+    },
+    {
+      "Position": 1167,
+      "Race No": 6549,
+      "Name": "Hayley SMITH",
+      "Time": "02:19:42",
+      "Category": "50-59",
+      "Category Position": 63,
+      "Gender": "Female",
+      "Gender Position": 444
+    },
+    {
+      "Position": 1206,
+      "Race No": 7368,
+      "Name": "Ruth LEVERTON",
+      "Time": "02:20:59",
+      "Category": "60-69",
+      "Category Position": 13,
+      "Gender": "Female",
+      "Gender Position": 469
+    },
+    {
+      "Position": 1211,
+      "Race No": 6252,
+      "Name": "Mogamat NORODIEN",
+      "Time": "02:21:11",
+      "Category": "40-49",
+      "Category Position": 183,
+      "Gender": "Male",
+      "Gender Position": 740
+    },
+    {
+      "Position": 1363,
+      "Race No": 7009,
+      "Name": "Brandon CHUNG",
+      "Time": "02:26:17",
+      "Category": "Senior",
+      "Category Position": 423,
+      "Gender": "Male",
+      "Gender Position": 817
+    },
+    {
+      "Position": 1439,
+      "Race No": 6430,
+      "Name": "Michael ROMAN",
+      "Time": "02:27:58",
+      "Category": "Senior",
+      "Category Position": 435,
+      "Gender": "Male",
+      "Gender Position": 840
+    },
+    {
+      "Position": 1441,
+      "Race No": 7387,
+      "Name": "Trevone MAARMAN",
+      "Time": "02:27:59",
+      "Category": "Senior",
+      "Category Position": 437,
+      "Gender": "Male",
+      "Gender Position": 842
+    },
+    {
+      "Position": 1469,
+      "Race No": 5132,
+      "Name": "Meghann BAYER",
+      "Time": "02:28:48",
+      "Category": "Senior",
+      "Category Position": 327,
+      "Gender": "Female",
+      "Gender Position": 620
+    },
+    {
+      "Position": 1482,
+      "Race No": 5292,
+      "Name": "Taryn CHRISTIE-SMITH",
+      "Time": "02:29:09",
+      "Category": "Senior",
+      "Category Position": 331,
+      "Gender": "Female",
+      "Gender Position": 631
+    },
+    {
+      "Position": 1614,
+      "Race No": 5625,
+      "Name": "Renata GENSICKE",
+      "Time": "02:32:41",
+      "Category": "40-49",
+      "Category Position": 200,
+      "Gender": "Female",
+      "Gender Position": 719
+    },
+    {
+      "Position": 1655,
+      "Race No": 7351,
+      "Name": "Isabel LAKAY",
+      "Time": "02:34:32",
+      "Category": "50-59",
+      "Category Position": 114,
+      "Gender": "Female",
+      "Gender Position": 745
+    },
+    {
+      "Position": 1699,
+      "Race No": 6623,
+      "Name": "Patricia SWART",
+      "Time": "02:35:48",
+      "Category": "Senior",
+      "Category Position": 383,
+      "Gender": "Female",
+      "Gender Position": 768
+    },
+    {
+      "Position": 1705,
+      "Race No": 6819,
+      "Name": "Kenny WILLIAMS",
+      "Time": "02:35:56",
+      "Category": "60-69",
+      "Category Position": 54,
+      "Gender": "Male",
+      "Gender Position": 932
+    },
+    {
+      "Position": 1706,
+      "Race No": 7813,
+      "Name": "Anton WALE",
+      "Time": "02:35:57",
+      "Category": "60-69",
+      "Category Position": 55,
+      "Gender": "Male",
+      "Gender Position": 933
+    },
+    {
+      "Position": 1721,
+      "Race No": 7921,
+      "Name": "Rosie KUMALO-LANDE",
+      "Time": "02:36:24",
+      "Category": "50-59",
+      "Category Position": 121,
+      "Gender": "Female",
+      "Gender Position": 784
+    },
+    {
+      "Position": 1790,
+      "Race No": 7305,
+      "Name": "Quintin JULIE",
+      "Time": "02:38:46",
+      "Category": "40-49",
+      "Category Position": 243,
+      "Gender": "Male",
+      "Gender Position": 961
+    },
+    {
+      "Position": 1792,
+      "Race No": 5861,
+      "Name": "Bronwyn JULIE",
+      "Time": "02:38:46",
+      "Category": "40-49",
+      "Category Position": 236,
+      "Gender": "Female",
+      "Gender Position": 830
+    },
+    {
+      "Position": 1802,
+      "Race No": 6048,
+      "Name": "Linda MALLON",
+      "Time": "02:39:04",
+      "Category": "50-59",
+      "Category Position": 136,
+      "Gender": "Female",
+      "Gender Position": 838
+    },
+    {
+      "Position": 1840,
+      "Race No": 7336,
+      "Name": "Thobela KOLWENI",
+      "Time": "02:40:01",
+      "Category": "Senior",
+      "Category Position": 420,
+      "Gender": "Female",
+      "Gender Position": 860
+    },
+    {
+      "Position": 1922,
+      "Race No": 7269,
+      "Name": "Kaare JAMES",
+      "Time": "02:42:56",
+      "Category": "70+",
+      "Category Position": 18,
+      "Gender": "Male",
+      "Gender Position": 999
+    },
+    {
+      "Position": 1957,
+      "Race No": 6389,
+      "Name": "Trudy RANDALL",
+      "Time": "02:44:21",
+      "Category": "50-59",
+      "Category Position": 161,
+      "Gender": "Female",
+      "Gender Position": 948
+    },
+    {
+      "Position": 1998,
+      "Race No": 7827,
+      "Name": "Macky WILLIAMS",
+      "Time": "02:45:59",
+      "Category": "Senior",
+      "Category Position": 462,
+      "Gender": "Female",
+      "Gender Position": 978
+    },
+    {
+      "Position": 2042,
+      "Race No": 7283,
+      "Name": "Yusuf JINOO",
+      "Time": "02:48:04",
+      "Category": "50-59",
+      "Category Position": 177,
+      "Gender": "Male",
+      "Gender Position": 1038
+    },
+    {
+      "Position": 2048,
+      "Race No": 6972,
+      "Name": "Emma BRASSINGTON",
+      "Time": "02:48:12",
+      "Category": "Senior",
+      "Category Position": 480,
+      "Gender": "Female",
+      "Gender Position": 1009
+    },
+    {
+      "Position": 2049,
+      "Race No": 7282,
+      "Name": "Hajiera JINOO",
+      "Time": "02:48:13",
+      "Category": "40-49",
+      "Category Position": 302,
+      "Gender": "Female",
+      "Gender Position": 1010
+    },
+    {
+      "Position": 2088,
+      "Race No": 6678,
+      "Name": "Beverley TUCKER",
+      "Time": "02:49:26",
+      "Category": "50-59",
+      "Category Position": 174,
+      "Gender": "Female",
+      "Gender Position": 1039
+    },
+    {
+      "Position": 2111,
+      "Race No": 5700,
+      "Name": "Sean HARRIS",
+      "Time": "02:50:07",
+      "Category": "50-59",
+      "Category Position": 179,
+      "Gender": "Male",
+      "Gender Position": 1060
+    },
+    {
+      "Position": 2172,
+      "Race No": 6406,
+      "Name": "Belinda RHODES",
+      "Time": "02:52:26",
+      "Category": "40-49",
+      "Category Position": 336,
+      "Gender": "Female",
+      "Gender Position": 1097
+    },
+    {
+      "Position": 2211,
+      "Race No": 6235,
+      "Name": "Lusanda NGXONONO",
+      "Time": "02:54:55",
+      "Category": "40-49",
+      "Category Position": 346,
+      "Gender": "Female",
+      "Gender Position": 1124
+    },
+    {
+      "Position": 2218,
+      "Race No": 7464,
+      "Name": "Chaldene MISROLL",
+      "Time": "02:55:10",
+      "Category": "40-49",
+      "Category Position": 349,
+      "Gender": "Female",
+      "Gender Position": 1130
+    },
+    {
+      "Position": 2219,
+      "Race No": 7465,
+      "Name": "Jade Lee MISROLL",
+      "Time": "02:55:10",
+      "Category": "Senior",
+      "Category Position": 518,
+      "Gender": "Female",
+      "Gender Position": 1131
+    },
+    {
+      "Position": 2221,
+      "Race No": 7741,
+      "Name": "Cherly SWANSON",
+      "Time": "02:55:22",
+      "Category": "50-59",
+      "Category Position": 193,
+      "Gender": "Female",
+      "Gender Position": 1132
+    },
+    {
+      "Position": 2222,
+      "Race No": 7742,
+      "Name": "Patrick SWANSON",
+      "Time": "02:55:23",
+      "Category": "50-59",
+      "Category Position": 187,
+      "Gender": "Male",
+      "Gender Position": 1090
+    },
+    {
+      "Position": 2233,
+      "Race No": 6614,
+      "Name": "Charmaine SWAIN",
+      "Time": "02:55:39",
+      "Category": "50-59",
+      "Category Position": 200,
+      "Gender": "Female",
+      "Gender Position": 1142
+    },
+    {
+      "Position": 2248,
+      "Race No": 6405,
+      "Name": "Chantal RHODE",
+      "Time": "02:56:23",
+      "Category": "Senior",
+      "Category Position": 519,
+      "Gender": "Female",
+      "Gender Position": 1147
+    },
+    {
+      "Position": 2263,
+      "Race No": 7888,
+      "Name": "Melany DU PLESSIS",
+      "Time": "02:57:06",
+      "Category": "40-49",
+      "Category Position": 355,
+      "Gender": "Female",
+      "Gender Position": 1157
+    },
+    {
+      "Position": 2333,
+      "Race No": 6988,
+      "Name": "Jean BURGHER",
+      "Time": "02:59:32",
+      "Category": "50-59",
+      "Category Position": 215,
+      "Gender": "Female",
+      "Gender Position": 1205
+    },
+    {
+      "Position": 2359,
+      "Race No": 7700,
+      "Name": "Shireen SIMONS",
+      "Time": "03:00:41",
+      "Category": "40-49",
+      "Category Position": 376,
+      "Gender": "Female",
+      "Gender Position": 1227
+    },
+    {
+      "Position": 2431,
+      "Race No": 5698,
+      "Name": "Lee-Ann HARRIS",
+      "Time": "03:04:05",
+      "Category": "50-59",
+      "Category Position": 233,
+      "Gender": "Female",
+      "Gender Position": 1288
+    },
+    {
+      "Position": 2506,
+      "Race No": 5239,
+      "Name": "Sarah BUCHNER",
+      "Time": "03:08:22",
+      "Category": "50-59",
+      "Category Position": 244,
+      "Gender": "Female",
+      "Gender Position": 1348
+    },
+    {
+      "Position": 2540,
+      "Race No": 6145,
+      "Name": "Lunga MKOSI",
+      "Time": "03:10:39",
+      "Category": "Senior",
+      "Category Position": 604,
+      "Gender": "Female",
+      "Gender Position": 1374
+    },
+    {
+      "Position": 2542,
+      "Race No": 7142,
+      "Name": "Melanie FORTUNE",
+      "Time": "03:10:52",
+      "Category": "40-49",
+      "Category Position": 414,
+      "Gender": "Female",
+      "Gender Position": 1376
+    },
+    {
+      "Position": 2552,
+      "Race No": 7433,
+      "Name": "Khuthala MBOMVU",
+      "Time": "03:11:40",
+      "Category": "40-49",
+      "Category Position": 416,
+      "Gender": "Female",
+      "Gender Position": 1383
+    },
+    {
+      "Position": 2560,
+      "Race No": 7360,
+      "Name": "Beverley LE ROUX",
+      "Time": "03:12:40",
+      "Category": "Senior",
+      "Category Position": 608,
+      "Gender": "Female",
+      "Gender Position": 1389
+    },
+    {
+      "Position": 2570,
+      "Race No": 5941,
+      "Name": "Nomonde KUBHEKA",
+      "Time": "03:13:30",
+      "Category": "40-49",
+      "Category Position": 419,
+      "Gender": "Female",
+      "Gender Position": 1397
+    },
+    {
+      "Position": 2572,
+      "Race No": 7699,
+      "Name": "Kariema SIMONS",
+      "Time": "03:13:36",
+      "Category": "60-69",
+      "Category Position": 88,
+      "Gender": "Female",
+      "Gender Position": 1399
+    },
+    {
+      "Position": 2599,
+      "Race No": 6230,
+      "Name": "Livhuwani NEMUGUMONI",
+      "Time": "03:16:00",
+      "Category": "Senior",
+      "Category Position": 528,
+      "Gender": "Male",
+      "Gender Position": 1179
+    },
+    {
+      "Position": 2615,
+      "Race No": 6321,
+      "Name": "Adrian PETERSEN",
+      "Time": "03:18:08",
+      "Category": "Senior",
+      "Category Position": 529,
+      "Gender": "Male",
+      "Gender Position": 1182
+    },
+    {
+      "Position": 2620,
+      "Race No": 7848,
+      "Name": "Abeda ADLER",
+      "Time": "03:18:30",
+      "Category": "40-49",
+      "Category Position": 432,
+      "Gender": "Female",
+      "Gender Position": 1438
+    },
+    {
+      "Position": 2625,
+      "Race No": 5178,
+      "Name": "Tania BLAUW",
+      "Time": "03:19:25",
+      "Category": "40-49",
+      "Category Position": 433,
+      "Gender": "Female",
+      "Gender Position": 1441
+    },
+    {
+      "Position": 2656,
+      "Race No": 7099,
+      "Name": "Pamela DUARTE",
+      "Time": "03:22:32",
+      "Category": "40-49",
+      "Category Position": 438,
+      "Gender": "Female",
+      "Gender Position": 1469
+    },
+    {
+      "Position": 2705,
+      "Race No": 7573,
+      "Name": "Yolande PETERSEN",
+      "Time": "03:33:36",
+      "Category": "40-49",
+      "Category Position": 452,
+      "Gender": "Female",
+      "Gender Position": 1509
+    },
+    {
+      "Position": 2712,
+      "Race No": 6554,
+      "Name": "Mercia SMITH",
+      "Time": "03:34:17",
+      "Category": "50-59",
+      "Category Position": 287,
+      "Gender": "Female",
+      "Gender Position": 1516
+    },
+    {
+      "Position": 2754,
+      "Race No": 7719,
+      "Name": "Keith SOLOMON",
+      "Time": "03:46:54",
+      "Category": "50-59",
+      "Category Position": 214,
+      "Gender": "Male",
+      "Gender Position": 1205
+    },
+    {
+      "Position": 2759,
+      "Race No": 5665,
+      "Name": "Nina GROBLER",
+      "Time": "03:48:25",
+      "Category": "Senior",
+      "Category Position": 658,
+      "Gender": "Female",
+      "Gender Position": 1554
+    },
+    {
+      "Position": 2761,
+      "Race No": 6203,
+      "Name": "Veena NARAN-SMITH",
+      "Time": "03:48:58",
+      "Category": "Senior",
+      "Category Position": 659,
+      "Gender": "Female",
+      "Gender Position": 1555
+    },
+    {
+      "Position": 999999,
+      "Race No": 5317,
+      "Name": "Linda COETZEE",
+      "Time": "Not started",
+      "Category": "50-59",
+      "Category Position": 999999,
+      "Gender": "Female",
+      "Gender Position": 999999
+    },
+    {
+      "Position": 999999,
+      "Race No": 5345,
+      "Name": "Jaco CRAFFORD",
+      "Time": "Not started",
+      "Category": "Senior",
+      "Category Position": 999999,
+      "Gender": "Male",
+      "Gender Position": 999999
+    },
+    {
+      "Position": 999999,
+      "Race No": 5982,
+      "Name": "Calvin LEEN",
+      "Time": "Not started",
+      "Category": "40-49",
+      "Category Position": 999999,
+      "Gender": "Male",
+      "Gender Position": 999999
+    },
+    {
+      "Position": 999999,
+      "Race No": 6251,
+      "Name": "Josephine NORODIEN",
+      "Time": "Not started",
+      "Category": "40-49",
+      "Category Position": 999999,
+      "Gender": "Female",
+      "Gender Position": 999999
+    },
+    {
+      "Position": 999999,
+      "Race No": 8068,
+      "Name": "Astrid RUITERS",
+      "Time": "Not started",
+      "Category": "40-49",
+      "Category Position": 999999,
+      "Gender": "Female",
+      "Gender Position": 999999
+    }
+  ]
+}
