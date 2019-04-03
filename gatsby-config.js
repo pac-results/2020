@@ -1,11 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Pinelands Athletic Club Race Results and Athlete Summaries`,
   },
   plugins: [
-    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-transformer-json`,
+      options: {
+        typeName: ({ node }) => node.sourceInstanceName,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -22,20 +25,3 @@ module.exports = {
     },
   ],
 };
-
-
-
-// {
-// allFile (filter: {
-//   sourceInstanceName: { eq : "athletes" }
-// }) {
-//   edges {
-//     node {
-//       childrenAthletesJson {
-//         last_name
-//         first_name
-//       }
-//     }
-//   }
-// }
-// }

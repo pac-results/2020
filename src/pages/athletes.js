@@ -6,26 +6,24 @@ export default ({ data }) => (
   <Layout>
     <h1>Hi from the athletes page</h1>
     <p>Welcome to the athletes page</p>
-    {data.allFile.edges[0].node.childrenAthletesJson.map((athlete) => (
-    <Link to={`/${athlete.first_name}_${athlete.last_name}`}>{athlete.first_name} {athlete.last_name}</Link>
-     )
+    <p><Link to="/">Go back to the homepage</Link></p>
+    {data.allAthletes.nodes.map((athlete) => (
+        <p><Link to={`/${athlete.first_name}_${athlete.last_name}`}>{athlete.first_name} {athlete.last_name}</Link></p>
+      )
     ) }
-    <Link to="/">Go back to the homepage</Link>
+    <p><Link to="/">Go back to the homepage</Link></p>
   </Layout>
 )
 
 export const query = graphql`
 {
-  allFile (filter: { 
-    sourceInstanceName: { eq : "athletes" }
-  }) {
-    edges {
-      node {
-        childrenAthletesJson {
-          last_name
-          first_name
-        }
+  allAthletes {
+    nodes {
+      fields{
+        name
       }
+      last_name
+      first_name
     }
   }
 }`;
