@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Pinelands Athletic Club Race Results and Athlete Summaries`,
+    title: `PAC Race Results and Athlete Summaries`,
+    description: `Pinelands Athletic Club Race Results and Athlete Summaries`,
   },
   plugins: [
     {

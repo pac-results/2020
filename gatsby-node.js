@@ -6,14 +6,6 @@ const path = require(`path`);
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-
-
-// use this in a bit, to generate the name on the athletes from the underlying.
-
-// also, maybe, to generate links between the nodes. like, attach all the race results to an athlete.
-// although, maybe that can be done just by querying
-
-
 exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions;
 

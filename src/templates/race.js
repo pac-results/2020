@@ -18,7 +18,8 @@ export default ({ data }) => {
       <div>{ data.races.name }</div>
       <div>{ data.races.distance }km</div>
       <div>{ data.races.date}</div>
-      <Link to="/races/">Go to races</Link>
+      <div>{ data.races.results.length} results</div>
+
 
       <ReactTable
         data={ data.races.results }
@@ -73,6 +74,8 @@ export default ({ data }) => {
         defaultPageSize={15}
         className="-striped -highlight"
       />
+
+      <Link to="/races/">Go to races</Link>
 
     </Layout>
   );
