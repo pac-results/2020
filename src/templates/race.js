@@ -13,8 +13,8 @@ export default ({ data }) => {
 
 export const query = graphql`
 query($id: String!) {
-    races(id: { eq: $id }) {
-      name
-      distance
-    }
-  }`;
+  races(id: { eq: $id }) {
+    name
+    distance
+  }
+}`;

@@ -8,7 +8,7 @@ export default ({ data }) => (
     <p>Welcome to the athletes page</p>
     <p><Link to="/">Go back to the homepage</Link></p>
     {data.allAthletes.nodes.map((athlete) => (
-        <p><Link to={`/${athlete.first_name}_${athlete.last_name}`}>{athlete.first_name} {athlete.last_name}</Link></p>
+        <p><Link to={`/${athlete.fields.slug}`}>{athlete.last_name}, {athlete.first_name}</Link></p>
       )
     ) }
     <p><Link to="/">Go back to the homepage</Link></p>
@@ -20,7 +20,7 @@ export const query = graphql`
   allAthletes {
     nodes {
       fields{
-        name
+        slug
       }
       last_name
       first_name

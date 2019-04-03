@@ -23,16 +23,22 @@ exports.onCreateNode = ({ node, actions }) => {
       node,
       name: `slug`,
       value: slug,
-    })
+    });
   }
 
   if (node.internal.type === `athletes`) {
     let name = `${node.first_name} ${node.last_name}`.toLowerCase();
+    let slug = name.replace(/ /g, '_');
     createNodeField({
       node,
       name: `name`,
       value: name,
-    })
+    });
+    createNodeField({
+      node,
+      name: `slug`,
+      value: slug,
+    });
   }
 };
 
@@ -47,15 +53,14 @@ exports.createPages = ({ graphql, actions }) => {
         slug
       }
       id
-      name
-      date
-      distance
     }
   }
   allAthletes {
     nodes {
-      last_name
-      first_name
+      fields {
+        name
+        slug
+      }
     }
   }
 }`
@@ -73,16 +78,13 @@ exports.createPages = ({ graphql, actions }) => {
     });
 
     result.data.allAthletes.nodes.forEach((athlete) => {
-      let firstName = athlete.first_name;
-      let lastName = athlete.last_name;
-      let name = `${firstName}_${lastName}`;
+      let slug = athlete.fields.slug;
+      let name = athlete.fields.name;
       createPage({
-        path: name,
+        path: slug,
         component: path.resolve(`./src/templates/athlete.js`),
         context: {
-          name,
-          firstName,
-          lastName
+          name
         },
       })
     })
