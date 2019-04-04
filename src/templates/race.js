@@ -3,6 +3,7 @@ import Layout from '../components/layout';
 import { Link, graphql } from 'gatsby';
 import ReactTable from 'react-table';
 import 'react-table/react-table.css';
+import Collapsible from 'react-collapsible';
 
 const toTitleCase = (str) =>
   str.replace(
@@ -12,17 +13,53 @@ const toTitleCase = (str) =>
 
 const toSlug = (str) => str.replace(/ /g, '_');
 
+const compareStrings = (field) => (a, b) => {
+  if (a[field] < b[field]) {
+    return -1;
+  }
+  if (a[field] > b[field]) {
+    return 1;
+  }
+  return 0;
+};
+
+const compareTimes = (a, b) => {
+  const as = a.time.split(':');
+  const bs = b.time.split(':');
+  if (as.length !== bs.length) return as.length - bs.length;
+
+  for (let i = 0; i< as.length; i++) {
+    let aa = parseInt(as[i]);
+    let bb = parseInt(bs[i]);
+    if (aa !== bb) return aa - bb;
+  }
+  return 0;
+};
+
 export default ({ data }) => {
+  const results = data.races.results.sort(compareTimes);
+
+  const firstMale = results.find(a => a.gender === 'male');
+  const firstFemale = results.find(a => a.gender === 'female');
+
+  const alphabeticalResults = results.sort(compareStrings('name'));
+
   return (
     <Layout>
       <div>{ data.races.name }</div>
       <div>{ data.races.distance }km</div>
       <div>{ data.races.date}</div>
-      <div>{ data.races.results.length} results</div>
+
+      <Collapsible trigger="Race report">
+        <div>{ results.length} results</div>
+        <div>First male athlete: { firstMale.name }</div>
+        <div>First female athlete: { firstFemale.name }</div>
+
+      </Collapsible>
 
 
       <ReactTable
-        data={ data.races.results }
+        data={ alphabeticalResults }
         columns={[
           {
             Header: "General",
@@ -30,7 +67,7 @@ export default ({ data }) => {
               {
                 Header: "Name",
                 id: "name",
-                accessor: d => <Link to={ toSlug(d.name) }>{ toTitleCase(d.name) }</Link>,
+                accessor: d => <Link to={ `/${toSlug(d.name)}` }>{ toTitleCase(d.name) }</Link>,
                 width: 250
               },
               {
@@ -69,6 +106,12 @@ export default ({ data }) => {
                 width: 100
               }
             ]
+          }
+        ]}
+        defaultSorted={[
+          {
+            id: "position",
+            desc: false
           }
         ]}
         defaultPageSize={15}

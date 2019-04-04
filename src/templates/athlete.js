@@ -24,6 +24,11 @@ export default ({ data, pageContext }) => {
             Header: "Race",
             columns: [
               {
+                Header: "Date",
+                accessor: "date",
+                width: 120
+              },
+              {
                 Header: "Name",
                 id: "name",
                 accessor: d => <Link to={ (d.fields.slug) }>{ d.name }</Link>,
@@ -33,11 +38,6 @@ export default ({ data, pageContext }) => {
                 Header: "Distance",
                 accessor: "distance",
                 width: 100
-              },
-              {
-                Header: "Date",
-                accessor: "date",
-                width: 120
               },
               {
                 Header: "Time",

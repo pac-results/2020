@@ -802,56 +802,6 @@
       "category position": 659,
       "gender": "female",
       "gender position": 1555
-    },
-    {
-      "position": 999999,
-      "race no": 5317,
-      "name": "linda coetzee",
-      "time": "not started",
-      "category": "50-59",
-      "category position": 999999,
-      "gender": "female",
-      "gender position": 999999
-    },
-    {
-      "position": 999999,
-      "race no": 5345,
-      "name": "jaco crafford",
-      "time": "not started",
-      "category": "senior",
-      "category position": 999999,
-      "gender": "male",
-      "gender position": 999999
-    },
-    {
-      "position": 999999,
-      "race no": 5982,
-      "name": "calvin leen",
-      "time": "not started",
-      "category": "40-49",
-      "category position": 999999,
-      "gender": "male",
-      "gender position": 999999
-    },
-    {
-      "position": 999999,
-      "race no": 6251,
-      "name": "josephine norodien",
-      "time": "not started",
-      "category": "40-49",
-      "category position": 999999,
-      "gender": "female",
-      "gender position": 999999
-    },
-    {
-      "position": 999999,
-      "race no": 8068,
-      "name": "astrid ruiters",
-      "time": "not started",
-      "category": "40-49",
-      "category position": 999999,
-      "gender": "female",
-      "gender position": 999999
     }
   ]
 }
