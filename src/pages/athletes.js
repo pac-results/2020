@@ -1,15 +1,51 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
+import ReactTable from 'react-table';
+import 'react-table/react-table.css';
 
 export default ({ data }) => (
   <Layout>
     <h1>All athletes</h1>
-    <p><Link to="/">Go back to the homepage</Link></p>
-    {data.allAthletes.nodes.map((athlete) => (
-        <p><Link to={`/${athlete.fields.slug}`}>{athlete.last_name}, {athlete.first_name}</Link></p>
-      )
-    ) }
+
+    <ReactTable
+      data={ data.allAthletes.nodes }
+      columns={[
+        {
+          Header: "General",
+          columns: [
+            {
+              Header: "Link",
+              id: "link",
+              accessor: d => <Link to={ `/${d.fields.slug}` }>link</Link>,
+              width: 50
+            },
+            {
+              Header: "Last name",
+              id: "lastname",
+              accessor: d => d.last_name,
+              width: 200
+            },
+            {
+              Header: "First name",
+              id: "firstname",
+              accessor: d => d.first_name,
+              width: 200
+            }
+          ]
+        }
+      ]}
+      defaultSorted={[
+        {
+          id: "lastname",
+          desc: false
+        }
+      ]}
+      defaultPageSize={15}
+      className="-striped -highlight"
+    />
+
+
     <p><Link to="/">Go back to the homepage</Link></p>
   </Layout>
 );

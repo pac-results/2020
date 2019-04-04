@@ -44,6 +44,9 @@ export default ({ data }) => {
 
   const alphabeticalResults = results.sort(compareStrings('name'));
 
+  const topTen = results.filter(r => r.category_position <= 10);
+
+
   return (
     <Layout>
       <div>{ data.races.name }</div>
@@ -52,8 +55,11 @@ export default ({ data }) => {
 
       <Collapsible trigger="Race report">
         <div>{ results.length} results</div>
-        <div>First male athlete: { firstMale.name }</div>
-        <div>First female athlete: { firstFemale.name }</div>
+        <div>First male athlete: { toTitleCase(firstMale.name) } ({firstMale.time})</div>
+        <div>First female athlete: { toTitleCase(firstFemale.name) } ({firstFemale.time})</div>
+        { topTen.map(r => (
+          <div>{toTitleCase(r.name)} placed {r.category_position} in {r.category} {r.gender}</div>
+        )) }
 
       </Collapsible>
 
