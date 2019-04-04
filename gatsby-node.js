@@ -10,7 +10,7 @@ exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions;
 
   if (node.internal.type === `races`) {
-    let slug = `${node.name}_${node.date}_${node.distance}`.toLowerCase().replace(/ /g, '_');
+    let slug = `${node.name}_${node.date}_${node.distance}_${node.discipline}`.toLowerCase().replace(/ /g, '_');
     createNodeField({
       node,
       name: `slug`,

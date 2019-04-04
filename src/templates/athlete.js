@@ -67,6 +67,12 @@ export default ({ data, pageContext }) => {
             ]
           }
         ]}
+        defaultSorted={[
+          {
+            id: "date",
+            desc: false
+          }
+        ]}
         defaultPageSize={15}
         className="-striped -highlight"
       />

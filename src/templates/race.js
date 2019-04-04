@@ -44,19 +44,24 @@ export default ({ data }) => {
 
   const alphabeticalResults = results.sort(compareStrings('name'));
 
-  const topTen = results.filter(r => r.category_position <= 10);
+  const topTen = results.filter(r => r.category_position && r.category_position <= 10);
 
 
   return (
     <Layout>
       <div>{ data.races.name }</div>
       <div>{ data.races.distance }km</div>
+      <div>{ data.races.discipline}</div>
       <div>{ data.races.date}</div>
 
       <Collapsible trigger="Race report">
         <div>{ results.length} results</div>
-        <div>First male athlete: { toTitleCase(firstMale.name) } ({firstMale.time})</div>
-        <div>First female athlete: { toTitleCase(firstFemale.name) } ({firstFemale.time})</div>
+        {firstMale &&
+          <div>First male athlete: { toTitleCase(firstMale.name) } ({firstMale.time})</div>
+        }
+        { firstFemale &&
+          <div>First female athlete: { toTitleCase(firstFemale.name) } ({firstFemale.time})</div>
+        }
         { topTen.map(r => (
           <div>{toTitleCase(r.name)} placed {r.category_position} in {r.category} {r.gender}</div>
         )) }
@@ -136,6 +141,7 @@ query($id: String!) {
     name
     distance
     date
+    discipline
     results {
       name
       category

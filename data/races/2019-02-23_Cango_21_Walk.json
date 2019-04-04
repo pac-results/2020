@@ -1,0 +1,15 @@
+{
+  "date": "2019-02-23",
+  "name": "Cango Marathon",
+  "discipline": "walk",
+  "distance": 21.1,
+  "results": [
+    {
+      "position": 31,
+      "race no": 2224,
+      "name": "mercia smith",
+      "gender": "female",
+      "time": "3:27:10"
+    }
+  ]
+}

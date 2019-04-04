@@ -1,0 +1,140 @@
+{
+  "date": "2019-02-23",
+  "name": "Cango Marathon",
+  "discipline": "run",
+  "distance": 42.2,
+  "results": [
+    {
+      "position": 117,
+      "race no": 1168,
+      "name": "unathi solora",
+      "gender": "male",
+      "time": "3:28:46"
+    },
+    {
+      "position": 615,
+      "race no": 1143,
+      "name": "alison smith",
+      "gender": "female",
+      "time": "4:26:54"
+    },
+    {
+      "position": 642,
+      "race no": 277,
+      "name": "stanley adams",
+      "gender": "male",
+      "time": "4:28:55"
+    },
+    {
+      "position": 699,
+      "race no": 647,
+      "name": "lily joan ithier",
+      "gender": "female",
+      "time": "4:34:25"
+    },
+    {
+      "position": 768,
+      "race no": 619,
+      "name": "heather hill",
+      "gender": "female",
+      "time": "4:42:09"
+    },
+    {
+      "position": 772,
+      "race no": 1149,
+      "name": "julian smith",
+      "gender": "male",
+      "time": "4:42:39"
+    },
+    {
+      "position": 834,
+      "race no": 1268,
+      "name": "clinton van reenen",
+      "gender": "male",
+      "time": "4:47:09"
+    },
+    {
+      "position": 855,
+      "race no": 1146,
+      "name": "wendal smith",
+      "gender": "male",
+      "time": "4:48:17"
+    },
+    {
+      "position": 871,
+      "race no": 460,
+      "name": "judith davidse",
+      "gender": "female",
+      "time": "4:49:10"
+    },
+    {
+      "position": 914,
+      "race no": 775,
+      "name": "ruth leverton",
+      "gender": "female",
+      "time": "4:53:50"
+    },
+    {
+      "position": 925,
+      "race no": 591,
+      "name": "donovan hartogh",
+      "gender": "male",
+      "time": "4:54:53"
+    },
+    {
+      "position": 926,
+      "race no": 692,
+      "name": "charl kelland",
+      "gender": "male",
+      "time": "4:54:53"
+    },
+    {
+      "position": 961,
+      "race no": 276,
+      "name": "michael adams",
+      "gender": "male",
+      "time": "4:57:44"
+    },
+    {
+      "position": 978,
+      "race no": 1055,
+      "name": "delyse rist",
+      "gender": "female",
+      "time": "4:59:20"
+    },
+    {
+      "position": 1011,
+      "race no": 331,
+      "name": "marvin bester",
+      "gender": "male",
+      "time": "5:07:40"
+    },
+    {
+      "position": 1056,
+      "race no": 552,
+      "name": "renata gensicke",
+      "gender": "female",
+      "time": "5:16:46"
+    },
+    {
+      "position": 1057,
+      "race no": 553,
+      "name": "andreas gensicke",
+      "gender": "male",
+      "time": "5:16:47"
+    },
+    {
+      "position": 1083,
+      "race no": 849,
+      "name": "tlou masehela",
+      "gender": "male",
+      "time": "5:30:21"
+    },
+    {
+      "position": 1121,
+      "race no": 1008,
+      "name": "della-reese philander",
+      "gender": "female",
+      "time": "5:58:48"
+    }
+  ]}

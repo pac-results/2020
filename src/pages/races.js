@@ -29,6 +29,11 @@ export default ({ data }) => (
               Header: "Distance",
               accessor: "distance",
               width: 100
+            },
+            {
+              Header: "Discipline",
+              accessor: "discipline",
+              width: 100
             }
           ]
         }
@@ -57,6 +62,7 @@ export const query = graphql`
       name
       date
       distance
+      discipline
     }
   }
 }`;
