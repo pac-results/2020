@@ -42,35 +42,32 @@ export default ({ data }) => {
   const firstMale = results.find(a => a.gender === 'male');
   const firstFemale = results.find(a => a.gender === 'female');
 
-  const alphabeticalResults = results.sort(compareStrings('name'));
-
   const topTen = results.filter(r => r.category_position && r.category_position <= 10);
 
+  results.sort(compareStrings('name'));
 
   return (
     <Layout>
-      <div>{ data.races.name }</div>
-      <div>{ data.races.distance }km</div>
-      <div>{ data.races.discipline}</div>
-      <div>{ data.races.date}</div>
+      <div>{ data.races.name } - { data.races.date}</div>
+      <div>{ data.races.distance }km { data.races.discipline}</div>
 
       <Collapsible trigger="Race report">
         <div>{ results.length} results</div>
         {firstMale &&
-          <div>First male athlete: { toTitleCase(firstMale.name) } ({firstMale.time})</div>
+          <div>First male athlete: { toTitleCase(firstMale.name) } ({ firstMale.time })</div>
         }
         { firstFemale &&
-          <div>First female athlete: { toTitleCase(firstFemale.name) } ({firstFemale.time})</div>
+          <div>First female athlete: { toTitleCase(firstFemale.name) } ({ firstFemale.time })</div>
         }
         { topTen.map(r => (
-          <div>{toTitleCase(r.name)} placed {r.category_position} in {r.category} {r.gender}</div>
+          <div>{ toTitleCase(r.name) } placed { r.category_position } in { r.category } { r.gender } ({ r.time })</div>
         )) }
 
       </Collapsible>
 
 
       <ReactTable
-        data={ alphabeticalResults }
+        data={ results }
         columns={[
           {
             Header: "General",

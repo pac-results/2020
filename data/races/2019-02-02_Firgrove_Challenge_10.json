@@ -1,0 +1,548 @@
+{
+  "date": "2019-02-02",
+  "name": "Spartan Harriers Firgrove Challenge",
+  "discipline": "run",
+  "distance": 10,
+  "results": [
+    {
+      "position": 28,
+      "race no": 3698,
+      "name": "jonas gensicke",
+      "category": "20-39",
+      "category position": 13,
+      "gender": "male",
+      "gender position": 25,
+      "time": "0:38:30"
+    },
+    {
+      "position": 35,
+      "race no": 3878,
+      "name": "jonathan overett",
+      "category": "20-39",
+      "category position": 16,
+      "gender": "male",
+      "gender position": 30,
+      "time": "0:39:04"
+    },
+    {
+      "position": 130,
+      "race no": 4504,
+      "name": "ricco visser",
+      "category": "jun",
+      "category position": 16,
+      "gender": "male",
+      "gender position": 102,
+      "time": "0:48:25"
+    },
+    {
+      "position": 338,
+      "race no": 4604,
+      "name": "heather hill",
+      "category": "40-49",
+      "category position": 19,
+      "gender": "female",
+      "gender position": 105,
+      "time": "0:56:31"
+    },
+    {
+      "position": 365,
+      "race no": 3461,
+      "name": "shamiel mathews",
+      "category": "50-59",
+      "category position": 35,
+      "gender": "male",
+      "gender position": 252,
+      "time": "0:57:12"
+    },
+    {
+      "position": 495,
+      "race no": 518,
+      "name": "tsholo tiro",
+      "category": "20-39",
+      "category position": 97,
+      "gender": "female",
+      "gender position": 188,
+      "time": "0:59:46"
+    },
+    {
+      "position": 509,
+      "race no": 4655,
+      "name": "shannon daniels",
+      "category": "20-39",
+      "category position": 160,
+      "gender": "male",
+      "gender position": 316,
+      "time": "1:00:14"
+    },
+    {
+      "position": 534,
+      "race no": 4602,
+      "name": "ruth leverton",
+      "category": "60-69",
+      "category position": 17,
+      "gender": "female",
+      "gender position": 205,
+      "time": "1:00:49"
+    },
+    {
+      "position": 614,
+      "race no": 4591,
+      "name": "rethaa van der berg",
+      "category": "20-39",
+      "category position": 179,
+      "gender": "male",
+      "gender position": 368,
+      "time": "1:03:00"
+    },
+    {
+      "position": 924,
+      "race no": 4131,
+      "name": "emma brassington",
+      "category": "20-39",
+      "category position": 228,
+      "gender": "female",
+      "gender position": 445,
+      "time": "1:09:27"
+    },
+    {
+      "position": 938,
+      "race no": 5171,
+      "name": "bronwyn julie",
+      "category": "40-49",
+      "category position": 115,
+      "gender": "female",
+      "gender position": 455,
+      "time": "1:09:43"
+    },
+    {
+      "position": 939,
+      "race no": 4621,
+      "name": "isabel lakay",
+      "category": "50-59",
+      "category position": 62,
+      "gender": "female",
+      "gender position": 456,
+      "time": "1:09:44"
+    },
+    {
+      "position": 1001,
+      "race no": 4276,
+      "name": "shalane de kock",
+      "category": "20-39",
+      "category position": 249,
+      "gender": "female",
+      "gender position": 493,
+      "time": "1:10:48"
+    },
+    {
+      "position": 1010,
+      "race no": 4496,
+      "name": "roy macgregor",
+      "category": "60-69",
+      "category position": 34,
+      "gender": "male",
+      "gender position": 512,
+      "time": "1:10:55"
+    },
+    {
+      "position": 1054,
+      "race no": 4444,
+      "name": "kim brooks",
+      "category": "20-39",
+      "category position": 260,
+      "gender": "female",
+      "gender position": 526,
+      "time": "1:11:43"
+    },
+    {
+      "position": 1063,
+      "race no": 4618,
+      "name": "katharina gensicke",
+      "category": "20-39",
+      "category position": 263,
+      "gender": "female",
+      "gender position": 534,
+      "time": "1:11:51"
+    },
+    {
+      "position": 1088,
+      "race no": 4081,
+      "name": "tegan rowe",
+      "category": "20-39",
+      "category position": 270,
+      "gender": "female",
+      "gender position": 550,
+      "time": "1:12:26"
+    },
+    {
+      "position": 1091,
+      "race no": 3523,
+      "name": "greg sinden",
+      "category": "60-69",
+      "category position": 36,
+      "gender": "male",
+      "gender position": 539,
+      "time": "1:12:28"
+    },
+    {
+      "position": 1092,
+      "race no": 3512,
+      "name": "lauren badenhorst",
+      "category": "40-49",
+      "category position": 148,
+      "gender": "female",
+      "gender position": 553,
+      "time": "1:12:33"
+    },
+    {
+      "position": 1122,
+      "race no": 4553,
+      "name": "susan merven",
+      "category": "40-49",
+      "category position": 154,
+      "gender": "female",
+      "gender position": 573,
+      "time": "1:13:13"
+    },
+    {
+      "position": 1187,
+      "race no": 4010,
+      "name": "aletta white",
+      "category": "40-49",
+      "category position": 168,
+      "gender": "female",
+      "gender position": 623,
+      "time": "1:14:28"
+    },
+    {
+      "position": 1195,
+      "race no": 4101,
+      "name": "ravill wilson",
+      "category": "40-49",
+      "category position": 138,
+      "gender": "male",
+      "gender position": 566,
+      "time": "1:14:38"
+    },
+    {
+      "position": 1216,
+      "race no": 4501,
+      "name": "cj visser",
+      "category": "50-59",
+      "category position": 94,
+      "gender": "male",
+      "gender position": 575,
+      "time": "1:15:04"
+    },
+    {
+      "position": 1268,
+      "race no": 3700,
+      "name": "janine audrey afrika",
+      "category": "20-39",
+      "category position": 337,
+      "gender": "female",
+      "gender position": 681,
+      "time": "1:16:19"
+    },
+    {
+      "position": 1368,
+      "race no": 4448,
+      "name": "lenora hammond",
+      "category": "50-59",
+      "category position": 111,
+      "gender": "female",
+      "gender position": 755,
+      "time": "1:18:53"
+    },
+    {
+      "position": 1440,
+      "race no": 3779,
+      "name": "chantal rhode",
+      "category": "20-39",
+      "category position": 390,
+      "gender": "female",
+      "gender position": 807,
+      "time": "1:21:10"
+    },
+    {
+      "position": 1469,
+      "race no": 4062,
+      "name": "jane knight",
+      "category": "20-39",
+      "category position": 397,
+      "gender": "female",
+      "gender position": 830,
+      "time": "1:22:18"
+    },
+    {
+      "position": 1499,
+      "race no": 4484,
+      "name": "jean burgher",
+      "category": "50-59",
+      "category position": 133,
+      "gender": "female",
+      "gender position": 850,
+      "time": "1:23:34"
+    },
+    {
+      "position": 1541,
+      "race no": 3291,
+      "name": "cathy austin",
+      "category": "40-49",
+      "category position": 243,
+      "gender": "female",
+      "gender position": 878,
+      "time": "1:25:16"
+    },
+    {
+      "position": 1546,
+      "race no": 3781,
+      "name": "tania blauw",
+      "category": "40-49",
+      "category position": 245,
+      "gender": "female",
+      "gender position": 882,
+      "time": "1:25:20"
+    },
+    {
+      "position": 1555,
+      "race no": 4234,
+      "name": "lesley-ann smith",
+      "category": "20-39",
+      "category position": 420,
+      "gender": "female",
+      "gender position": 887,
+      "time": "1:25:33"
+    },
+    {
+      "position": 1576,
+      "race no": 4614,
+      "name": "beth macgregor",
+      "category": "50-59",
+      "category position": 147,
+      "gender": "female",
+      "gender position": 904,
+      "time": "1:26:41"
+    },
+    {
+      "position": 1600,
+      "race no": 4660,
+      "name": "chanel daniels",
+      "category": "20-39",
+      "category position": 434,
+      "gender": "female",
+      "gender position": 921,
+      "time": "1:27:57"
+    },
+    {
+      "position": 1601,
+      "race no": 4458,
+      "name": "melanie fortune",
+      "category": "40-49",
+      "category position": 260,
+      "gender": "female",
+      "gender position": 922,
+      "time": "1:27:57"
+    },
+    {
+      "position": 1602,
+      "race no": 4445,
+      "name": "carmen holtzman",
+      "category": "50-59",
+      "category position": 149,
+      "gender": "female",
+      "gender position": 923,
+      "time": "1:28:00"
+    },
+    {
+      "position": 1617,
+      "race no": 4854,
+      "name": "michelle cupido",
+      "category": "50-59",
+      "category position": 153,
+      "gender": "female",
+      "gender position": 932,
+      "time": "1:28:34"
+    },
+    {
+      "position": 1633,
+      "race no": 4096,
+      "name": "chantel rautenbach",
+      "category": "40-49",
+      "category position": 271,
+      "gender": "female",
+      "gender position": 945,
+      "time": "1:29:40"
+    },
+    {
+      "position": 1634,
+      "race no": 4750,
+      "name": "adrian peterson",
+      "category": "20-39",
+      "category position": 311,
+      "gender": "male",
+      "gender position": 689,
+      "time": "1:29:43"
+    },
+    {
+      "position": 1674,
+      "race no": 3797,
+      "name": "kariema simons",
+      "category": "60-69",
+      "category position": 58,
+      "gender": "female",
+      "gender position": 978,
+      "time": "1:32:09"
+    },
+    {
+      "position": 1691,
+      "race no": 4748,
+      "name": "livhuwani nemugumoni",
+      "category": "20-39",
+      "category position": 315,
+      "gender": "male",
+      "gender position": 699,
+      "time": "1:33:26"
+    },
+    {
+      "position": 1714,
+      "race no": 4747,
+      "name": "kelly smith",
+      "category": "20-39",
+      "category position": 321,
+      "gender": "male",
+      "gender position": 709,
+      "time": "1:34:27"
+    },
+    {
+      "position": 1718,
+      "race no": 4861,
+      "name": "beverley le roux",
+      "category": "20-39",
+      "category position": 461,
+      "gender": "female",
+      "gender position": 1008,
+      "time": "1:34:37"
+    },
+    {
+      "position": 1723,
+      "race no": 4659,
+      "name": "lindsay dawes",
+      "category": "50-59",
+      "category position": 169,
+      "gender": "female",
+      "gender position": 1012,
+      "time": "1:34:49"
+    },
+    {
+      "position": 1746,
+      "race no": 3084,
+      "name": "anastacia james",
+      "category": "20-39",
+      "category position": 472,
+      "gender": "female",
+      "gender position": 1031,
+      "time": "1:36:18"
+    },
+    {
+      "position": 1758,
+      "race no": 3382,
+      "name": "ethne stevens",
+      "category": "70+",
+      "category position": 8,
+      "gender": "female",
+      "gender position": 1039,
+      "time": "1:37:11"
+    },
+    {
+      "position": 1807,
+      "race no": 3906,
+      "name": "lunga mkosi",
+      "category": "20-39",
+      "category position": 490,
+      "gender": "female",
+      "gender position": 1075,
+      "time": "1:43:11"
+    },
+    {
+      "position": 1828,
+      "race no": 3334,
+      "name": "hayley jackson",
+      "category": "40-49",
+      "category position": 305,
+      "gender": "female",
+      "gender position": 1090,
+      "time": "1:46:45"
+    },
+    {
+      "position": 1829,
+      "race no": 3335,
+      "name": "lauren thorne",
+      "category": "40-49",
+      "category position": 306,
+      "gender": "female",
+      "gender position": 1091,
+      "time": "1:46:46"
+    },
+    {
+      "position": 1830,
+      "race no": 3336,
+      "name": "brian thorne",
+      "category": "60-69",
+      "category position": 58,
+      "gender": "male",
+      "gender position": 739,
+      "time": "1:46:50"
+    },
+    {
+      "position": 1845,
+      "race no": 3947,
+      "name": "charmaine swain",
+      "category": "50-59",
+      "category position": 185,
+      "gender": "female",
+      "gender position": 1103,
+      "time": "1:51:27"
+    },
+    {
+      "position": 1846,
+      "race no": 3306,
+      "name": "veena naran-smith",
+      "category": "20-39",
+      "category position": 503,
+      "gender": "female",
+      "gender position": 1104,
+      "time": "1:51:28"
+    },
+    {
+      "position": 1847,
+      "race no": 4523,
+      "name": "nomonde kubheka",
+      "category": "40-49",
+      "category position": 311,
+      "gender": "female",
+      "gender position": 1105,
+      "time": "1:51:43"
+    },
+    {
+      "position": 1848,
+      "race no": 4454,
+      "name": "mercia smith",
+      "category": "50-59",
+      "category position": 186,
+      "gender": "female",
+      "gender position": 1106,
+      "time": "1:51:43"
+    },
+    {
+      "position": 1852,
+      "race no": 5077,
+      "name": "abby malamba",
+      "category": "40-49",
+      "category position": 313,
+      "gender": "female",
+      "gender position": 1109,
+      "time": "1:53:50"
+    }
+  ]
+}

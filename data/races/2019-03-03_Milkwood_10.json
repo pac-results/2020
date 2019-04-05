@@ -1,0 +1,57 @@
+{
+  "date": "2019-03-03",
+  "name": "Milkwood",
+  "discipline": "run",
+  "distance": 10,
+  "results": [
+    {
+      "position": 250,
+      "name": "emma brassington",
+      "gender": "female",
+      "category": "juniors (j)",
+      "time": "01:05:19"
+    },
+    {
+      "position": 253,
+      "name": "marlene james",
+      "gender": "female",
+      "category": "70+",
+      "time": "01:05:27"
+    },
+    {
+      "position": 320,
+      "name": "chris mackrill",
+      "gender": "male",
+      "category": "40-49 (40)",
+      "time": "01:08:46"
+    },
+    {
+      "position": 354,
+      "name": "cameron clarke",
+      "gender": "male",
+      "category": "open",
+      "time": "01:11:08"
+    },
+    {
+      "position": 368,
+      "name": "calvin leen",
+      "gender": "male",
+      "category": "40-49 (40)",
+      "time": "01:11:48"
+    },
+    {
+      "position": 491,
+      "name": "lindsay dawes",
+      "gender": "female",
+      "category": "50-59 (50)",
+      "time": "01:20:18"
+    },
+    {
+      "position": 617,
+      "name": "marguerite steppe",
+      "gender": "female",
+      "category": "40-49 (40)",
+      "time": "01:50:39"
+    }
+  ]
+}

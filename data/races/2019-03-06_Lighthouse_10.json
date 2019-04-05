@@ -1,0 +1,308 @@
+{
+  "date": "2019-03-06",
+  "name": "Crazy Store Lighthouse Ten Night Race",
+  "discipline": "run",
+  "distance": 10,
+  "results": [
+    {
+      "position": 44,
+      "name": "john mawingo",
+      "gender": "male",
+      "category": "sen",
+      "time": "0:37:49"
+    },
+    {
+      "position": 112,
+      "name": "chris erlangsen",
+      "gender": "male",
+      "category": "sen",
+      "time": "0:42:06"
+    },
+    {
+      "position": 160,
+      "name": "jean minaar",
+      "gender": "male",
+      "category": "35",
+      "time": "0:43:49"
+    },
+    {
+      "position": 178,
+      "name": "unathi solora",
+      "gender": "male",
+      "category": "35",
+      "time": "0:44:20"
+    },
+    {
+      "position": 222,
+      "name": "kanakana mushangayi",
+      "gender": "male",
+      "category": "40",
+      "time": "0:45:18"
+    },
+    {
+      "position": 225,
+      "name": "andrew erlangsen",
+      "gender": "male",
+      "category": "sen",
+      "time": "0:45:23"
+    },
+    {
+      "position": 237,
+      "name": "matthew weyer",
+      "gender": "male",
+      "category": "sen",
+      "time": "0:46:10"
+    },
+    {
+      "position": 286,
+      "name": "nancy will",
+      "gender": "female",
+      "category": "65",
+      "time": "0:47:59"
+    },
+    {
+      "position": 343,
+      "name": "david isaacs",
+      "gender": "male",
+      "category": "45",
+      "time": "0:49:17"
+    },
+    {
+      "position": 464,
+      "name": "christopher schnehage",
+      "gender": "male",
+      "category": "65",
+      "time": "0:52:26"
+    },
+    {
+      "position": 487,
+      "name": "john dawes",
+      "gender": "male",
+      "category": "55",
+      "time": "0:52:57"
+    },
+    {
+      "position": 532,
+      "name": "lily joan ithier",
+      "gender": "female",
+      "category": "45",
+      "time": "0:53:49"
+    },
+    {
+      "position": 582,
+      "name": "mervin schnehage",
+      "gender": "male",
+      "category": "40",
+      "time": "0:55:02"
+    },
+    {
+      "position": 586,
+      "name": "alison smith",
+      "gender": "female",
+      "category": "40",
+      "time": "0:55:10"
+    },
+    {
+      "position": 659,
+      "name": "anwar omar",
+      "gender": "male",
+      "category": "55",
+      "time": "0:56:48"
+    },
+    {
+      "position": 660,
+      "name": "shamiel mathews",
+      "gender": "male",
+      "category": "50",
+      "time": "0:56:49"
+    },
+    {
+      "position": 698,
+      "name": "hylton christie-smith",
+      "gender": "male",
+      "category": "35",
+      "time": "0:57:49"
+    },
+    {
+      "position": 747,
+      "name": "maitele tshifularo",
+      "gender": "female",
+      "category": "40",
+      "time": "0:58:30"
+    },
+    {
+      "position": 909,
+      "name": " no card",
+      "gender": "female",
+      "category": "sen",
+      "time": "1:01:44"
+    },
+    {
+      "position": 910,
+      "name": "marlene james",
+      "gender": "female",
+      "category": "75",
+      "time": "1:01:48"
+    },
+    {
+      "position": 936,
+      "name": "jo kannemeyer",
+      "gender": "female",
+      "category": "40",
+      "time": "1:02:19"
+    },
+    {
+      "position": 990,
+      "name": "cameron clarke",
+      "gender": "male",
+      "category": "sen",
+      "time": "1:03:43"
+    },
+    {
+      "position": 1022,
+      "name": "taryn christie-smith",
+      "gender": "female",
+      "category": "35",
+      "time": "1:04:06"
+    },
+    {
+      "position": 1046,
+      "name": "gcinikaya dlodlo",
+      "gender": "male",
+      "category": "40",
+      "time": "1:04:53"
+    },
+    {
+      "position": 1101,
+      "name": "chris mackrill",
+      "gender": "male",
+      "category": "45",
+      "time": "1:06:32"
+    },
+    {
+      "position": 1107,
+      "name": "kaare james",
+      "gender": "male",
+      "category": "75",
+      "time": "1:06:40"
+    },
+    {
+      "position": 1126,
+      "name": "calvin leen",
+      "gender": "male",
+      "category": "45",
+      "time": "1:07:03"
+    },
+    {
+      "position": 1132,
+      "name": "clara machado",
+      "gender": "female",
+      "category": "sen",
+      "time": "1:07:17"
+    },
+    {
+      "position": 1180,
+      "name": "monique lentz",
+      "gender": "female",
+      "category": "sen",
+      "time": "1:09:11"
+    },
+    {
+      "position": 1199,
+      "name": "genevieve lentz",
+      "gender": "female",
+      "category": "35",
+      "time": "1:10:02"
+    },
+    {
+      "position": 1212,
+      "name": "r toyer",
+      "gender": "female",
+      "category": "35",
+      "time": "1:10:48"
+    },
+    {
+      "position": 1252,
+      "name": "tarryn clarke",
+      "gender": "female",
+      "category": "sen",
+      "time": "1:12:10"
+    },
+    {
+      "position": 1265,
+      "name": "lee-ann harris",
+      "gender": "female",
+      "category": "50",
+      "time": "1:12:40"
+    },
+    {
+      "position": 1334,
+      "name": "susan purchase",
+      "gender": "female",
+      "category": "45",
+      "time": "1:16:13"
+    },
+    {
+      "position": 1335,
+      "name": "meghann bayer",
+      "gender": "female",
+      "category": "35",
+      "time": "1:16:14"
+    },
+    {
+      "position": 1336,
+      "name": "suzanne beck",
+      "gender": "female",
+      "category": "sen",
+      "time": "1:16:14"
+    },
+    {
+      "position": 1360,
+      "name": "shane kiernan",
+      "gender": "male",
+      "category": "50",
+      "time": "1:17:02"
+    },
+    {
+      "position": 1378,
+      "name": "tracey lykiardopulos",
+      "gender": "female",
+      "category": "40",
+      "time": "1:18:14"
+    },
+    {
+      "position": 1387,
+      "name": "zola dlodlo",
+      "gender": "female",
+      "category": "sen",
+      "time": "1:18:34"
+    },
+    {
+      "position": 1390,
+      "name": "charmaine swain",
+      "gender": "female",
+      "category": "50",
+      "time": "1:18:43"
+    },
+    {
+      "position": 1408,
+      "name": "nemugumoni livhuwani",
+      "gender": "male",
+      "category": "35",
+      "time": "1:19:12"
+    },
+    {
+      "position": 1452,
+      "name": "lindsay dawes",
+      "gender": "female",
+      "category": "55",
+      "time": "1:22:10"
+    },
+    {
+      "position": 1478,
+      "name": "lunga mkosi",
+      "gender": "female",
+      "category": "35",
+      "time": "1:23:44"
+    }
+  ]}

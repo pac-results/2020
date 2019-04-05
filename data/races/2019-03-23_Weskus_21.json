@@ -1,0 +1,328 @@
+{
+  "date": "2019-03-23",
+  "name": "Weskus Marathon",
+  "discipline": "run",
+  "distance": 21.1,
+  "results": [
+    {
+      "position": 99,
+      "race no": 3075,
+      "name": "jacky misroll",
+      "gender": "female",
+      "time": "01:46:52",
+      "category": "40-49"
+    },
+    {
+      "position": 136,
+      "race no": 2569,
+      "name": "steve bethke",
+      "gender": "male",
+      "time": "01:52:32",
+      "category": "40-49"
+    },
+    {
+      "position": 139,
+      "race no": 2804,
+      "name": "andreas gensicke",
+      "gender": "male",
+      "time": "01:52:57",
+      "category": "50-59"
+    },
+    {
+      "position": 321,
+      "race no": 2887,
+      "name": "lily ithier",
+      "gender": "female",
+      "time": "02:08:09",
+      "category": "40-49"
+    },
+    {
+      "position": 327,
+      "race no": 2504,
+      "name": "lionel abrahams",
+      "gender": "male",
+      "time": "02:08:39",
+      "category": "50-59"
+    },
+    {
+      "position": 417,
+      "race no": 2057,
+      "name": "ryan brown",
+      "gender": "male",
+      "time": "02:14:01",
+      "category": "m senior"
+    },
+    {
+      "position": 432,
+      "race no": 2015,
+      "name": "peter anders",
+      "gender": "male",
+      "time": "02:14:53",
+      "category": "50-59"
+    },
+    {
+      "position": 518,
+      "race no": 3425,
+      "name": "andy duncan",
+      "gender": "male",
+      "time": "02:21:20",
+      "category": "40-49"
+    },
+    {
+      "position": 524,
+      "race no": 2009,
+      "name": "reime africa",
+      "gender": "male",
+      "time": "02:21:40",
+      "category": "m senior"
+    },
+    {
+      "position": 528,
+      "race no": 2180,
+      "name": "quintin julie",
+      "gender": "male",
+      "time": "02:21:58",
+      "category": "40-49"
+    },
+    {
+      "position": 535,
+      "race no": 3087,
+      "name": "mandla moyo",
+      "gender": "male",
+      "time": "02:22:21",
+      "category": "40-49"
+    },
+    {
+      "position": 555,
+      "race no": 2630,
+      "name": "brandon chung",
+      "gender": "male",
+      "time": "02:23:38",
+      "category": "m senior"
+    },
+    {
+      "position": 583,
+      "race no": 2629,
+      "name": "taryn christie-smith",
+      "gender": "female",
+      "time": "02:25:06",
+      "category": "f senior"
+    },
+    {
+      "position": 636,
+      "race no": 2903,
+      "name": "marlene james",
+      "gender": "female",
+      "time": "02:29:05",
+      "category": "70-79"
+    },
+    {
+      "position": 647,
+      "race no": 2601,
+      "name": "nicole brooks",
+      "gender": "female",
+      "time": "02:29:53",
+      "category": "40-49"
+    },
+    {
+      "position": 652,
+      "race no": 2778,
+      "name": "candice fortuine",
+      "gender": "female",
+      "time": "02:30:12",
+      "category": "40-49"
+    },
+    {
+      "position": 665,
+      "race no": 3115,
+      "name": "anthony mark newfeld",
+      "gender": "male",
+      "time": "02:31:24",
+      "category": "50-59"
+    },
+    {
+      "position": 751,
+      "race no": 3096,
+      "name": "pumza mushanganyisi",
+      "gender": "female",
+      "time": "02:37:43",
+      "category": "40-49"
+    },
+    {
+      "position": 772,
+      "race no": 2248,
+      "name": "ndumie melani",
+      "gender": "female",
+      "time": "02:38:43",
+      "category": "f senior"
+    },
+    {
+      "position": 807,
+      "race no": 2665,
+      "name": "shannon daniels",
+      "gender": "male",
+      "time": "02:40:52",
+      "category": "m senior"
+    },
+    {
+      "position": 810,
+      "race no": 2805,
+      "name": "renata gensicke",
+      "gender": "female",
+      "time": "02:41:02",
+      "category": "40-49"
+    },
+    {
+      "position": 840,
+      "race no": 3391,
+      "name": "richard webb",
+      "gender": "male",
+      "time": "02:42:32",
+      "category": "40-49"
+    },
+    {
+      "position": 841,
+      "race no": 3390,
+      "name": "jeanne webb",
+      "gender": "female",
+      "time": "02:42:33",
+      "category": "40-49"
+    },
+    {
+      "position": 867,
+      "race no": 3338,
+      "name": "ray van der scholtz",
+      "gender": "female",
+      "time": "02:44:24",
+      "category": "40-49"
+    },
+    {
+      "position": 882,
+      "race no": 2179,
+      "name": "bronwyn julie",
+      "gender": "female",
+      "time": "02:46:00",
+      "category": "40-49"
+    },
+    {
+      "position": 930,
+      "race no": 2525,
+      "name": "peter arendse",
+      "gender": "male",
+      "time": "02:50:26",
+      "category": "50-59"
+    },
+    {
+      "position": 961,
+      "race no": 3284,
+      "name": "patricia swart",
+      "gender": "female",
+      "time": "02:53:40",
+      "category": "f senior"
+    },
+    {
+      "position": 991,
+      "race no": 2600,
+      "name": "kim brooks",
+      "gender": "female",
+      "time": "02:57:06",
+      "category": "f senior"
+    },
+    {
+      "position": 1073,
+      "race no": 3178,
+      "name": "belinda rhodes",
+      "gender": "female",
+      "time": "03:08:21",
+      "category": "40-49"
+    },
+    {
+      "position": 1074,
+      "race no": 3121,
+      "name": "josephine norodien",
+      "gender": "female",
+      "time": "03:08:21",
+      "category": "40-49"
+    },
+    {
+      "position": 1075,
+      "race no": 2844,
+      "name": "lee-ann harris",
+      "gender": "female",
+      "time": "03:08:22",
+      "category": "50-59"
+    },
+    {
+      "position": 1173,
+      "race no": 2780,
+      "name": "melanie fortune",
+      "gender": "female",
+      "time": "03:33:52",
+      "category": "40-49"
+    },
+    {
+      "position": 1174,
+      "race no": 2870,
+      "name": "carmen holtzman",
+      "gender": "female",
+      "time": "03:33:53",
+      "category": "50-59"
+    },
+    {
+      "position": 1176,
+      "race no": 2663,
+      "name": "chanel daniels",
+      "gender": "female",
+      "time": "03:33:54",
+      "category": "f senior"
+    },
+    {
+      "position": 1177,
+      "race no": 2888,
+      "name": "hayley jackson",
+      "gender": "female",
+      "time": "03:33:55",
+      "category": "40-49"
+    },
+    {
+      "position": 1178,
+      "race no": 3247,
+      "name": "mercia smith",
+      "gender": "female",
+      "time": "03:33:55",
+      "category": "50-59"
+    },
+    {
+      "position": 1184,
+      "race no": 3311,
+      "name": "lauren thorne-vicars",
+      "gender": "female",
+      "time": "03:42:30",
+      "category": "40-49"
+    },
+    {
+      "position": 1186,
+      "race no": 2202,
+      "name": "nicolaas laubscher",
+      "gender": "male",
+      "time": "03:46:03",
+      "category": "50-59"
+    },
+    {
+      "position": 1192,
+      "race no": 3102,
+      "name": "veena naran-smith",
+      "gender": "female",
+      "time": "03:57:10",
+      "category": "f senior"
+    },
+    {
+      "position": 1196,
+      "race no": 2661,
+      "name": "michelle cupido",
+      "gender": "female",
+      "time": "04:36:17",
+      "category": "50-59"
+    }
+  ]
+}
