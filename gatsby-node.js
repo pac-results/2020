@@ -79,6 +79,18 @@ exports.createPages = ({ graphql, actions }) => {
           name
         },
       })
-    })
+    });
+
+    const createMonthlyReport = (month, index) => {
+      createPage({
+        path: `/${month}`,
+        component: path.resolve(`./src/templates/monthly_report.js`),
+        context: {
+          month: index + 1
+        },
+      })
+    };
+    ['January', 'February', 'March', 'April'].map(createMonthlyReport);
+
   })
 };

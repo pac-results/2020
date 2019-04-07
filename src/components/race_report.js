@@ -14,19 +14,23 @@ const RaceReport = ({ race }) => {
 
   return (
     <Fragment>
-      <div>{ race.name } - { race.date}</div>
-      <div>{ race.distance }km { race.discipline}</div>
+      <div style={{ padding: '10px' }}>
+        <div><b>{ race.date } - { race.name } { race.distance }km { race.discipline}</b></div>
 
-      <div>{ results.length} results</div>
-      {firstMale &&
-      <div>First male athlete: { toTitleCase(firstMale.name) } ({ firstMale.time })</div>
-      }
-      { firstFemale &&
-      <div>First female athlete: { toTitleCase(firstFemale.name) } ({ firstFemale.time })</div>
-      }
-      { topTen.map(r => (
-        <div key={r.name}>{ toTitleCase(r.name) } placed { r.category_position } in { r.category } { r.gender } ({ r.time })</div>
-      )) }
+        <div>{ results.length} athletes</div>
+        <div style={{ padding: '7px' }}>
+          {firstMale &&
+          <div>First male athlete: { toTitleCase(firstMale.name) } ({ firstMale.time })</div>
+          }
+          { firstFemale &&
+          <div>First female athlete: { toTitleCase(firstFemale.name) } ({ firstFemale.time })</div>
+          }
+        </div>
+        { topTen.map(r => (
+          <div key={r.name}>{ toTitleCase(r.name) } placed { r.category_position } in { r.category } { r.gender }
+            ({ r.time })</div>
+        )) }
+      </div>
     </Fragment>
   )
 };
