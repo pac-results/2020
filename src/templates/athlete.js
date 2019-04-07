@@ -31,7 +31,7 @@ export default ({ data, pageContext }) => {
               {
                 Header: "Name",
                 id: "name",
-                accessor: d => <Link to={ (d.fields.slug) }>{ d.name }</Link>,
+                accessor: d => <Link to={ `/${ d.fields.slug }` }>{ d.name }</Link>,
                 width: 300
               },
               {
