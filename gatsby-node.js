@@ -34,7 +34,6 @@ exports.onCreateNode = ({ node, actions }) => {
   }
 };
 
-
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
   return graphql(`
@@ -91,6 +90,5 @@ exports.createPages = ({ graphql, actions }) => {
       })
     };
     ['January', 'February', 'March', 'April'].map(createMonthlyReport);
-
-  })
+  });
 };
