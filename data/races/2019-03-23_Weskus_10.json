@@ -1,0 +1,55 @@
+{
+  "date": "2019-03-23",
+  "name": "Weskus Marathon",
+  "discipline": "run",
+  "distance": 10,
+  "results": [
+    {
+      "position": 20,
+      "race no": 5435,
+      "name": "jonas gensicke",
+      "gender": "male",
+      "time": "00:43:09",
+      "category": "m senior"
+    },
+    {
+      "position": 239,
+      "race no": 5691,
+      "name": "dion stevens",
+      "gender": "male",
+      "time": "01:06:20",
+      "category": "50-59"
+    },
+    {
+      "position": 464,
+      "race no": 5623,
+      "name": "chantel rautenbach",
+      "gender": "female",
+      "time": "01:24:19",
+      "category": "40-49"
+    },
+    {
+      "position": 531,
+      "race no": 5625,
+      "name": "candice reglie",
+      "gender": "female",
+      "time": "01:32:42",
+      "category": "f senior"
+    },
+    {
+      "position": 532,
+      "race no": 5071,
+      "name": "queen gumede",
+      "gender": "female",
+      "time": "01:32:52",
+      "category": "f senior"
+    },
+    {
+      "position": 554,
+      "race no": 5471,
+      "name": "tasneem jainoodien",
+      "gender": "female",
+      "time": "01:36:03",
+      "category": "f senior"
+    }
+  ]}

@@ -1,0 +1,378 @@
+{
+  "date": "2019-03-17",
+  "name": "Tygerberg",
+  "discipline": "run",
+  "distance": 30,
+  "results": [
+    {
+      "position": 66,
+      "name": "damian will",
+      "gender": "male",
+      "time": "02:09:48",
+      "category": "20 - 39"
+    },
+    {
+      "position": 146,
+      "name": "heimie misroll",
+      "gender": "male",
+      "time": "02:24:51",
+      "category": ""
+    },
+    {
+      "position": 310,
+      "name": "nancy hill",
+      "gender": "female",
+      "time": "02:39:31",
+      "category": "60 - 69"
+    },
+    {
+      "position": 311,
+      "name": "kanakana mushanganyisi",
+      "gender": "male",
+      "time": "02:39:33",
+      "category": "40 - 49"
+    },
+    {
+      "position": 335,
+      "name": "jacky misroll",
+      "gender": "female",
+      "time": "02:40:34",
+      "category": "40 - 49"
+    },
+    {
+      "position": 372,
+      "name": "douglas mitchell",
+      "gender": "male",
+      "time": "02:42:39",
+      "category": "50 - 59"
+    },
+    {
+      "position": 509,
+      "name": "andreas geusicko",
+      "gender": "male",
+      "time": "02:48:41",
+      "category": "50 - 59"
+    },
+    {
+      "position": 513,
+      "name": "jon mcgill",
+      "gender": "male",
+      "time": "02:48:50",
+      "category": "20 - 39"
+    },
+    {
+      "position": 562,
+      "name": "cavin mcpherson",
+      "gender": "male",
+      "time": "02:51:29",
+      "category": "20 - 39"
+    },
+    {
+      "position": 563,
+      "name": "jerrard steenveld",
+      "gender": "male",
+      "time": "02:51:33",
+      "category": "20 - 39"
+    },
+    {
+      "position": 639,
+      "name": "d isaacs",
+      "gender": "male",
+      "time": "02:55:35",
+      "category": "40 - 49"
+    },
+    {
+      "position": 685,
+      "name": "maghdi arnold",
+      "gender": "male",
+      "time": "02:57:17",
+      "category": "50 - 59"
+    },
+    {
+      "position": 810,
+      "name": "christopher schnehage",
+      "gender": "male",
+      "time": "03:03:59",
+      "category": "60 - 69"
+    },
+    {
+      "position": 968,
+      "name": "tanya lund",
+      "gender": "female",
+      "time": "03:11:02",
+      "category": "40 - 49"
+    },
+    {
+      "position": 1007,
+      "name": "hylton christie-smith",
+      "gender": "male",
+      "time": "03:13:09",
+      "category": "20 - 39"
+    },
+    {
+      "position": 1008,
+      "name": "likho sikutshwa",
+      "gender": "female",
+      "time": "03:13:09",
+      "category": "20 - 39"
+    },
+    {
+      "position": 1009,
+      "name": "tloy masehela",
+      "gender": "male",
+      "time": "03:13:09",
+      "category": "20 - 39"
+    },
+    {
+      "position": 1077,
+      "name": "a maddy",
+      "gender": "male",
+      "time": "03:17:08",
+      "category": "20 - 39"
+    },
+    {
+      "position": 1137,
+      "name": "richard majiet",
+      "gender": "male",
+      "time": "03:19:58",
+      "category": "60 - 69"
+    },
+    {
+      "position": 1141,
+      "name": "darnell martin",
+      "gender": "female",
+      "time": "03:20:10",
+      "category": "50 - 59"
+    },
+    {
+      "position": 1142,
+      "name": "ruth leverton",
+      "gender": "female",
+      "time": "03:20:13",
+      "category": "60 - 69"
+    },
+    {
+      "position": 1143,
+      "name": "heather hill",
+      "gender": "female",
+      "time": "03:20:14",
+      "category": "40 - 49"
+    },
+    {
+      "position": 1165,
+      "name": "donovan hartogh",
+      "gender": "male",
+      "time": "03:21:24",
+      "category": "20 - 39"
+    },
+    {
+      "position": 1175,
+      "name": "wendal smith",
+      "gender": "male",
+      "time": "03:21:34",
+      "category": "50 - 59"
+    },
+    {
+      "position": 1179,
+      "name": "a duncan",
+      "gender": "",
+      "time": "03:23:04",
+      "category": "40 - 49"
+    },
+    {
+      "position": 1194,
+      "name": "julian smith",
+      "gender": "male",
+      "time": "03:23:36",
+      "category": "20 - 39"
+    },
+    {
+      "position": 1199,
+      "name": "marylin rorich",
+      "gender": "female",
+      "time": "03:23:40",
+      "category": "50 - 59"
+    },
+    {
+      "position": 1200,
+      "name": "natalie fisher",
+      "gender": "female",
+      "time": "03:23:40",
+      "category": "40 - 49"
+    },
+    {
+      "position": 1248,
+      "name": "mark subalz",
+      "gender": "male",
+      "time": "03:26:38",
+      "category": "40 - 49"
+    },
+    {
+      "position": 1263,
+      "name": "judith davidse",
+      "gender": "female",
+      "time": "03:26:58",
+      "category": "20 - 39"
+    },
+    {
+      "position": 1264,
+      "name": "delyse rist",
+      "gender": "female",
+      "time": "03:26:59",
+      "category": "50 - 59"
+    },
+    {
+      "position": 1265,
+      "name": "alison smith",
+      "gender": "female",
+      "time": "03:26:59",
+      "category": "40 - 49"
+    },
+    {
+      "position": 1270,
+      "name": "mervyn franciscus",
+      "gender": "male",
+      "time": "03:27:18",
+      "category": "50 - 59"
+    },
+    {
+      "position": 1271,
+      "name": "bryn leverton",
+      "gender": "male",
+      "time": "03:27:31",
+      "category": "20 - 39"
+    },
+    {
+      "position": 1335,
+      "name": "brian samuels",
+      "gender": "male",
+      "time": "03:29:23",
+      "category": "50 - 59"
+    },
+    {
+      "position": 1347,
+      "name": "refiloe kubheka",
+      "gender": "male",
+      "time": "03:29:29",
+      "category": "20 - 39"
+    },
+    {
+      "position": 1359,
+      "name": "brenton abrahams",
+      "gender": "male",
+      "time": "03:31:32",
+      "category": "50 - 59"
+    },
+    {
+      "position": 1360,
+      "name": "edgar rorich",
+      "gender": "male",
+      "time": "03:31:32",
+      "category": "50 - 59"
+    },
+    {
+      "position": 1362,
+      "name": "felicia abrahams",
+      "gender": "female",
+      "time": "03:31:33",
+      "category": "40 - 49"
+    },
+    {
+      "position": 1375,
+      "name": "nicole brooks",
+      "gender": "female",
+      "time": "03:33:37",
+      "category": "40 - 49"
+    },
+    {
+      "position": 1382,
+      "name": "timothy siebritz",
+      "gender": "male",
+      "time": "03:34:34",
+      "category": "20 - 39"
+    },
+    {
+      "position": 1389,
+      "name": "shevey carmichael",
+      "gender": "female",
+      "time": "03:36:08",
+      "category": "40 - 49"
+    },
+    {
+      "position": 1394,
+      "name": "vera adams",
+      "gender": "female",
+      "time": "03:36:24",
+      "category": "40 - 49"
+    },
+    {
+      "position": 1400,
+      "name": "linda mallon",
+      "gender": "female",
+      "time": "03:37:01",
+      "category": "50 - 59"
+    },
+    {
+      "position": 1409,
+      "name": "marlene james",
+      "gender": "female",
+      "time": "03:37:59",
+      "category": "70 +"
+    },
+    {
+      "position": 1419,
+      "name": "gcinikaya dlodlo",
+      "gender": "male",
+      "time": "03:38:33",
+      "category": "40 - 49"
+    },
+    {
+      "position": 1430,
+      "name": "linda zenzile",
+      "gender": "female",
+      "time": "03:39:39",
+      "category": "40 - 49"
+    },
+    {
+      "position": 1463,
+      "name": "rosie kumalo",
+      "gender": "female",
+      "time": "03:45:38",
+      "category": "50 - 59"
+    },
+    {
+      "position": 1485,
+      "name": "renata gensicke",
+      "gender": "female",
+      "time": "03:50:24",
+      "category": "40 - 49"
+    },
+    {
+      "position": 1512,
+      "name": "peter arendse",
+      "gender": "male",
+      "time": "04:09:34",
+      "category": "50 - 59"
+    },
+    {
+      "position": 1513,
+      "name": "kaare james",
+      "gender": "male",
+      "time": "04:09:35",
+      "category": "70 +"
+    },
+    {
+      "position": 1518,
+      "name": "belinda rhodes",
+      "gender": "female",
+      "time": "04:22:50",
+      "category": "40 - 49"
+    },
+    {
+      "position": 1519,
+      "name": "lee-ann harris",
+      "gender": "female",
+      "time": "04:22:51",
+      "category": "50 - 59"
+    }
+  ]}

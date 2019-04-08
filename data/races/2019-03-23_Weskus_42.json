@@ -34,7 +34,8 @@
       "name": "nancy will",
       "gender": "female",
       "time": "03:45:42",
-      "category": "60-69"
+      "category": "60-69",
+      "category position": 1
     },
     {
       "position": 286,

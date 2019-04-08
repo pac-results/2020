@@ -27,8 +27,7 @@ const RaceReport = ({ race }) => {
           }
         </div>
         { topTen.map(r => (
-          <div key={r.name}>{ toTitleCase(r.name) } placed { r.category_position } in { r.category } { r.gender }
-            ({ r.time })</div>
+          <div key={r.name}>{ toTitleCase(r.name) } placed { r.category_position } in { r.category } { r.gender } ({ r.time })</div>
         )) }
       </div>
     </Fragment>

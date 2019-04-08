@@ -10,7 +10,8 @@
       "name": "jacky misroll",
       "gender": "female",
       "time": "01:46:52",
-      "category": "40-49"
+      "category": "40-49",
+      "category position": 4
     },
     {
       "position": 136,
@@ -114,7 +115,8 @@
       "name": "marlene james",
       "gender": "female",
       "time": "02:29:05",
-      "category": "70-79"
+      "category": "70-79",
+      "category position": 2
     },
     {
       "position": 647,

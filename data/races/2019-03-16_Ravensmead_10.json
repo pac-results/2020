@@ -1,0 +1,15 @@
+{
+  "date": "2019-03-16",
+  "name": "Ravensmead",
+  "discipline": "walk",
+  "distance": 10,
+  "results": [
+    {
+      "position": 71,
+      "name": "mercia smith",
+      "gender": "female",
+      "category": "50",
+      "time": "1:28:05"
+    }
+  ]
+}

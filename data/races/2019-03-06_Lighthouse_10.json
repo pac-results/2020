@@ -58,6 +58,7 @@
       "name": "nancy will",
       "gender": "female",
       "category": "65",
+      "category position": 2,
       "time": "0:47:59"
     },
     {
@@ -142,6 +143,7 @@
       "name": "marlene james",
       "gender": "female",
       "category": "75",
+      "category position": 3,
       "time": "1:01:48"
     },
     {
