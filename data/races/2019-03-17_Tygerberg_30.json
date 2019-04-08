@@ -20,9 +20,10 @@
     },
     {
       "position": 310,
-      "name": "nancy hill",
+      "name": "nancy will",
       "gender": "female",
       "time": "02:39:31",
+      "category position": 2,
       "category": "60 - 69"
     },
     {
@@ -175,7 +176,7 @@
     {
       "position": 1179,
       "name": "andy duncan",
-      "gender": "",
+      "gender": "male",
       "time": "03:23:04",
       "category": "40 - 49"
     },
@@ -317,6 +318,7 @@
       "name": "marlene james",
       "gender": "female",
       "time": "03:37:59",
+      "category position": 3,
       "category": "70 +"
     },
     {
