@@ -9,7 +9,7 @@
       "name": "nancy will",
       "gender": "female",
       "category": "60 - 69 (60)",
-      "category position": "1",
+      "category position": 1,
       "time": "01:48:29"
     },
     {
@@ -45,7 +45,7 @@
       "name": "michael le sueur",
       "gender": "male",
       "category": "70+",
-      "category position": "3",
+      "category position": 3,
       "time": "02:07:18"
     },
     {
