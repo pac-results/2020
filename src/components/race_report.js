@@ -17,7 +17,7 @@ const RaceReport = ({ race }) => {
       <div style={{ padding: '10px' }}>
         <div><b>{ race.date } - { race.name } { race.distance }km { race.discipline}</b></div>
 
-        <div>{ results.length} athletes</div>
+        <div>{ results.length } athlete{ results.length > 1 ? 's': ''}</div>
         <div style={{ padding: '7px' }}>
           {firstMale &&
           <div>First male athlete: { toTitleCase(firstMale.name) } ({ firstMale.time })</div>
