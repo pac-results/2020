@@ -8,6 +8,7 @@
       "position": 15,
       "race no": 258,
       "name": "damian will",
+      "category": "",
       "gender": "male",
       "gender position": 13,
       "time": "01:26:37"
@@ -16,6 +17,7 @@
       "position": 127,
       "race no": 9951,
       "name": "andreas gensicke",
+      "category": "",
       "gender": "male",
       "gender position": 111,
       "time": "01:43:30"
@@ -24,6 +26,7 @@
       "position": 142,
       "race no": 10451,
       "name": "douglas mitchell",
+      "category": "",
       "gender": "male",
       "gender position": 124,
       "time": "01:44:56"
@@ -32,6 +35,7 @@
       "position": 177,
       "race no": 1997,
       "name": "jacky misroll",
+      "category": "",
       "gender": "female",
       "gender position": 24,
       "time": "01:48:03"
@@ -40,6 +44,7 @@
       "position": 186,
       "race no": 257,
       "name": "nancy will",
+      "category": "",
       "gender": "female",
       "gender position": 29,
       "time": "01:48:20"
@@ -48,6 +53,7 @@
       "position": 329,
       "race no": 9888,
       "name": "james fish",
+      "category": "",
       "gender": "male",
       "gender position": 271,
       "time": "01:55:03"
@@ -56,6 +62,7 @@
       "position": 420,
       "race no": 10374,
       "name": "tlou masehela",
+      "category": "",
       "gender": "male",
       "gender position": 333,
       "time": "01:58:10"
@@ -64,6 +71,7 @@
       "position": 541,
       "race no": 9490,
       "name": "vera adams",
+      "category": "",
       "gender": "female",
       "gender position": 121,
       "time": "02:02:02"
@@ -72,6 +80,7 @@
       "position": 543,
       "race no": 9751,
       "name": "john dawes",
+      "category": "",
       "gender": "male",
       "gender position": 421,
       "time": "02:02:16"
@@ -80,6 +89,7 @@
       "position": 544,
       "race no": 10658,
       "name": "bruce pope",
+      "category": "",
       "gender": "male",
       "gender position": 422,
       "time": "02:02:17"
@@ -88,6 +98,7 @@
       "position": 550,
       "race no": 10694,
       "name": "stuart reid",
+      "category": "",
       "gender": "male",
       "gender position": 426,
       "time": "02:02:24"
@@ -96,6 +107,7 @@
       "position": 568,
       "race no": 10608,
       "name": "veronique orban",
+      "category": "",
       "gender": "female",
       "gender position": 133,
       "time": "02:03:11"
@@ -104,6 +116,7 @@
       "position": 750,
       "race no": 10766,
       "name": "mervin schnehage",
+      "category": "",
       "gender": "male",
       "gender position": 549,
       "time": "02:10:31"
@@ -112,6 +125,7 @@
       "position": 831,
       "race no": 9887,
       "name": "kim filles",
+      "category": "",
       "gender": "female",
       "gender position": 242,
       "time": "02:13:45"
@@ -120,6 +134,7 @@
       "position": 918,
       "race no": 274,
       "name": "nazeem nordien",
+      "category": "",
       "gender": "male",
       "gender position": 631,
       "time": "02:17:16"
@@ -128,6 +143,7 @@
       "position": 986,
       "race no": 628,
       "name": "brian samuels",
+      "category": "",
       "gender": "male",
       "gender position": 666,
       "time": "02:19:14"
@@ -136,6 +152,7 @@
       "position": 1039,
       "race no": 10385,
       "name": "shamiel mathews",
+      "category": "",
       "gender": "male",
       "gender position": 694,
       "time": "02:21:28"
@@ -144,6 +161,7 @@
       "position": 1113,
       "race no": 10765,
       "name": "christopher schnehage",
+      "category": "",
       "gender": "male",
       "gender position": 720,
       "time": "02:24:33"
@@ -152,6 +170,7 @@
       "position": 1128,
       "race no": 9499,
       "name": "miche africa",
+      "category": "",
       "gender": "female",
       "gender position": 400,
       "time": "02:24:54"
@@ -160,6 +179,7 @@
       "position": 1135,
       "race no": 9746,
       "name": "judith davidse",
+      "category": "",
       "gender": "female",
       "gender position": 406,
       "time": "02:25:08"
@@ -168,6 +188,7 @@
       "position": 1136,
       "race no": 10839,
       "name": "alison smith",
+      "category": "",
       "gender": "female",
       "gender position": 407,
       "time": "02:25:09"
@@ -176,6 +197,7 @@
       "position": 1137,
       "race no": 10708,
       "name": "delyse rist",
+      "category": "",
       "gender": "female",
       "gender position": 408,
       "time": "02:25:10"
@@ -184,6 +206,7 @@
       "position": 1160,
       "race no": 10491,
       "name": "mandlenkosi moyo",
+      "category": "",
       "gender": "male",
       "gender position": 735,
       "time": "02:26:22"
@@ -192,6 +215,7 @@
       "position": 1168,
       "race no": 10728,
       "name": "tegan rowe",
+      "category": "",
       "gender": "female",
       "gender position": 430,
       "time": "02:26:42"
@@ -200,6 +224,7 @@
       "position": 1192,
       "race no": 9930,
       "name": "theo galetta",
+      "category": "",
       "gender": "male",
       "gender position": 746,
       "time": "02:27:20"
@@ -208,6 +233,7 @@
       "position": 1193,
       "race no": 637,
       "name": "timothy siebritz",
+      "category": "",
       "gender": "male",
       "gender position": 747,
       "time": "02:27:21"
@@ -216,6 +242,7 @@
       "position": 1219,
       "race no": 10187,
       "name": "grant koks",
+      "category": "",
       "gender": "male",
       "gender position": 759,
       "time": "02:28:09"
@@ -224,6 +251,7 @@
       "position": 1237,
       "race no": 10844,
       "name": "wendal smith",
+      "category": "",
       "gender": "male",
       "gender position": 766,
       "time": "02:28:35"
@@ -232,6 +260,7 @@
       "position": 1419,
       "race no": 9952,
       "name": "renata gensicke",
+      "category": "",
       "gender": "female",
       "gender position": 589,
       "time": "02:38:52"
@@ -240,6 +269,7 @@
       "position": 1425,
       "race no": 9763,
       "name": "shalane de",
+      "category": "",
       "gender": "female",
       "gender position": 594,
       "time": "02:39:09"
@@ -248,6 +278,7 @@
       "position": 1426,
       "race no": 10686,
       "name": "trudy randall",
+      "category": "",
       "gender": "female",
       "gender position": 595,
       "time": "02:39:09"
@@ -256,6 +287,7 @@
       "position": 1457,
       "race no": 9549,
       "name": "meghann bayer",
+      "category": "",
       "gender": "female",
       "gender position": 614,
       "time": "02:41:38"
@@ -264,6 +296,7 @@
       "position": 1459,
       "race no": 677,
       "name": "macky williams",
+      "category": "",
       "gender": "female",
       "gender position": 616,
       "time": "02:41:45"
@@ -272,6 +305,7 @@
       "position": 1487,
       "race no": 10025,
       "name": "lee-ann harris",
+      "category": "",
       "gender": "female",
       "gender position": 635,
       "time": "02:43:31"
@@ -280,6 +314,7 @@
       "position": 1537,
       "race no": 1946,
       "name": "lily joan",
+      "category": "",
       "gender": "female",
       "gender position": 668,
       "time": "02:47:44"
@@ -288,6 +323,7 @@
       "position": 1541,
       "race no": 9501,
       "name": "janine afrika",
+      "category": "",
       "gender": "female",
       "gender position": 671,
       "time": "02:47:50"
@@ -296,6 +332,7 @@
       "position": 1599,
       "race no": 5358,
       "name": "cheryl swanson",
+      "category": "",
       "gender": "female",
       "gender position": 713,
       "time": "02:53:29"
@@ -304,6 +341,7 @@
       "position": 1601,
       "race no": 8576,
       "name": "kerwyn williams",
+      "category": "",
       "gender": "male",
       "gender position": 887,
       "time": "02:53:35"
@@ -312,6 +350,7 @@
       "position": 1658,
       "race no": 10701,
       "name": "belinda rhodes",
+      "category": "",
       "gender": "female",
       "gender position": 756,
       "time": "02:58:38"
@@ -320,6 +359,7 @@
       "position": 1659,
       "race no": 10341,
       "name": "linda mallon",
+      "category": "",
       "gender": "female",
       "gender position": 757,
       "time": "02:58:39"
@@ -328,6 +368,7 @@
       "position": 1668,
       "race no": 10808,
       "name": "likho sikutshwa",
+      "category": "",
       "gender": "female",
       "gender position": 765,
       "time": "02:59:56"
@@ -336,6 +377,7 @@
       "position": 1681,
       "race no": 10568,
       "name": "josephine norodien",
+      "category": "",
       "gender": "female",
       "gender position": 775,
       "time": "03:01:21"
@@ -344,6 +386,7 @@
       "position": 1683,
       "race no": 1989,
       "name": "khuthala mbomvu",
+      "category": "",
       "gender": "female",
       "gender position": 777,
       "time": "03:01:23"
@@ -352,6 +395,7 @@
       "position": 1697,
       "race no": 10549,
       "name": "livhuwani nemugumoni",
+      "category": "",
       "gender": "male",
       "gender position": 911,
       "time": "03:03:24"
@@ -360,6 +404,7 @@
       "position": 1740,
       "race no": 4905,
       "name": "peter arendse",
+      "category": "",
       "gender": "male",
       "gender position": 922,
       "time": "03:10:11"
@@ -368,6 +413,7 @@
       "position": 1762,
       "race no": 9524,
       "name": "cathy austin",
+      "category": "",
       "gender": "female",
       "gender position": 836,
       "time": "03:17:15"
