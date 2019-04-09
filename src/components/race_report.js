@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import React, { Fragment } from 'react';
-import { compareTimes, compareStrings, toTitleCase } from '../lib/utils';
+import { compareStrings, toTitleCase } from '../lib/utils';
 
 const RaceReport = ({ race }) => {
-  const results = race.results.sort(compareTimes);
+  const results = race.results.sort((a, b) => a.position - b.position);
 
   const firstMale = results.find(a => a.gender === 'male');
   const firstFemale = results.find(a => a.gender === 'female');
