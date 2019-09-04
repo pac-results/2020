@@ -78,7 +78,7 @@ export default ({ data, pageContext }) => {
       />
 
 
-      <Link to="/athletes/">Go to athletes</Link>
+      <Link to="/athletes/">Athletes</Link>
     </Layout>
   );
 }

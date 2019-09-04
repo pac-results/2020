@@ -14,7 +14,7 @@ export default ({ data, pageContext }) => (
       <RaceReport key={ race.fields.slug } race={race}/>
     ))}
 
-    <Link to="/monthly_reports/">Go to monthly reports</Link>
+    <Link to="/monthly_reports/">Monthly Reports</Link>
 
   </Layout>
 );

@@ -70,7 +70,7 @@ export default ({ data }) => (
       className="-striped -highlight"
     />
 
-    <Link to="/races/">Go to races</Link>
+    <Link to="/races/">Races</Link>
 
   </Layout>
 );
