@@ -6,24 +6,12 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-transformer-json`,
-      options: {
-        typeName: ({ node }) => node.sourceInstanceName,
-      },
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `athletes`,
-        path: `${__dirname}/data/athletes.json`,
+        name: `data`,
+        path: `${__dirname}/data/`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `races`,
-        path: `${__dirname}/data/races`,
-      },
-    },
+    `gatsby-transformer-csv`,
   ],
 };

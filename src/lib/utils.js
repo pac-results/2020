@@ -15,8 +15,8 @@ export const compareStrings = (field) => (a, b) => {
 };
 
 export const compareTimes = (a, b) => {
-  const as = a.time.split(':');
-  const bs = b.time.split(':');
+  const as = a.Time.split('.');
+  const bs = b.Time.split('.');
   if (as.length !== bs.length) return as.length - bs.length;
 
   for (let i = 0; i< as.length; i++) {

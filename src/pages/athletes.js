@@ -5,7 +5,11 @@ import ReactTable from 'react-table';
 import 'react-table/react-table.css';
 
 export default ({ data }) => {
-  let athletes = data.allAthletes.nodes.sort((a, b) => a.number - b.number);
+  let athletes = data.allResultsCsv.group.map(athlete => {
+    const details = athlete.nodes[0];
+    const { Firstname, Surname, Licence, fields: { athlete_slug: slug } } = details;
+    return { Licence, Firstname, Surname, slug };
+  });
 
   return (
     <Layout>
@@ -18,21 +22,21 @@ export default ({ data }) => {
             Header: "General",
             columns: [
               {
-                Header: "Number",
-                id: "number",
-                accessor: d => <Link to={ `/${d.fields.slug}` }>{ d.number }</Link>,
+                Header: "Licence",
+                id: "Licence",
+                accessor: d => <Link to={ `/${d.slug}` }>{ d.Licence }</Link>,
                 width: 100
               },
               {
-                Header: "Last name",
-                id: "lastname",
-                accessor: d => d.last_name,
+                Header: "Surname",
+                id: "Surname",
+                accessor: d => d.Surname,
                 width: 200
               },
               {
                 Header: "First name",
-                id: "firstname",
-                accessor: d => d.first_name,
+                id: "Firstname",
+                accessor: d => d.Firstname,
                 width: 200
               }
             ]
@@ -40,7 +44,7 @@ export default ({ data }) => {
         ]}
         defaultSorted={[
           {
-            id: "lastname",
+            id: "Surname",
             desc: false
           }
         ]}
@@ -56,14 +60,19 @@ export default ({ data }) => {
 
 export const query = graphql`
 {
-  allAthletes {
-    nodes {
-      fields{
-        slug
+  allResultsCsv {
+    group(field: fields___athlete_slug) {
+      nodes {
+        Firstname
+        Licence
+        Surname
+        fields {
+          athlete_slug
+        }
       }
-      number
-      last_name
-      first_name
     }
   }
 }`;
+//  allResultsCsv {
+//     distinct(field: fields___athlete_slug)
+//   }

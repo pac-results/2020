@@ -1,94 +1,100 @@
-const path = require(`path`);
-
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+const path = require('path');
+const moment = require('moment')
 
 exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions;
 
-  if (node.internal.type === `races`) {
-    let slug = `${node.name}_${node.date}_${node.distance}_${node.discipline}`.toLowerCase().replace(/ /g, '_');
+  if (node.internal.type === `ResultsCsv`) {
+    let race_slug = `${node.Description}_${node.Distance}_${node.Date}_${node.Discipline}`.toLowerCase().replace(/ /g, '_').replace(/#/g, '_');
     createNodeField({
       node,
-      name: `slug`,
-      value: slug,
+      name: 'race_slug',
+      value: race_slug,
     });
-  }
 
-  if (node.internal.type === `athletes`) {
-    let name = `${node.first_name} ${node.last_name}`.toLowerCase();
-    let slug = name.replace(/ /g, '_');
+    let athlete_name = `${node.Firstname} ${node.Surname}`;
     createNodeField({
       node,
-      name: `name`,
-      value: name,
+      name: 'athlete_name',
+      value: athlete_name,
     });
+
+    let athlete_slug = athlete_name.toLowerCase().replace(/ /g, '_');
     createNodeField({
       node,
-      name: `slug`,
-      value: slug,
+      name: 'athlete_slug',
+      value: athlete_slug,
+    });
+
+    // make this a combo of age and gender
+    const category = () => {
+      let { Birthdate: birth_date, Date: race_date, Gender } = node;
+      const race = moment(race_date, 'YYYY-MM-DD');
+      const birth = moment(birth_date, 'YYYY-MM-DD');
+
+      if (birth.year() >= 2001) return `${Gender} Juniors`;
+
+      const age = race.diff(birth, 'years');
+      if (age <= 39) return `${Gender} Seniors`;
+      if (age <= 49) return `${Gender} Veterans`;
+      if (age <= 59) return `${Gender} Masters`;
+      if (age <= 69) return `${Gender} Grand Masters`;
+      if (age >= 70) return `${Gender} Great Grand Masters`;
+      return 'unknown';
+    };
+
+    createNodeField({
+      node,
+      name: 'Category',
+      value: category(),
     });
   }
 };
 
-exports.createPages = ({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
-  return graphql(`
-{
-  allRaces {
-    nodes {
-      fields {
-        slug
+  const races = await graphql(`
+    {
+      allResultsCsv {
+        distinct(field: fields___race_slug)
       }
-      id
-    }
-  }
-  allAthletes {
-    nodes {
-      fields {
-        name
+    }`);
+
+  races.data.allResultsCsv.distinct.forEach((slug) => {
+    createPage({
+      path: slug,
+      component: path.resolve(`./src/templates/race.js`),
+      context: {
         slug
-      }
-    }
-  }
-}`
-  ).then(result => {
-    result.data.allRaces.nodes.forEach((race) => {
-      let slug = race.fields.slug;
-      createPage({
-        path: slug,
-        component: path.resolve(`./src/templates/race.js`),
-        context: {
-          id: race.id,
-          slug
-        },
-      })
-    });
-
-    result.data.allAthletes.nodes.forEach((athlete) => {
-      let slug = athlete.fields.slug;
-      let name = athlete.fields.name;
-      createPage({
-        path: slug,
-        component: path.resolve(`./src/templates/athlete.js`),
-        context: {
-          name
-        },
-      })
-    });
-
-    const createMonthlyReport = (month, index) => {
-      createPage({
-        path: `/${month}`,
-        component: path.resolve(`./src/templates/monthly_report.js`),
-        context: {
-          month: index + 1
-        },
-      })
-    };
-    ['January', 'February', 'March', 'April'].map(createMonthlyReport);
+      },
+    })
   });
+
+  const athletes = await graphql(`
+    {
+      allResultsCsv {
+        distinct(field: fields___athlete_slug)
+      }
+    }`);
+
+  athletes.data.allResultsCsv.distinct.forEach((slug) => {
+    createPage({
+      path: slug,
+      component: path.resolve(`./src/templates/athlete.js`),
+      context: {
+        slug
+      },
+    })
+  });
+
+  const createMonthlyReport = (month, index) => {
+    createPage({
+      path: `/${month}`,
+      component: path.resolve(`./src/templates/monthly_report.js`),
+      context: {
+        month: index + 1
+      },
+    })
+  };
+  ['January'].map(createMonthlyReport);
 };

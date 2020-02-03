@@ -6,91 +6,77 @@ import 'react-table/react-table.css';
 import { compareTimes, toTitleCase, toSlug } from '../lib/utils';
 import RaceReport from '../components/race_report';
 
-export default ({ data }) => (
-  <Layout>
-    <RaceReport race={data.races}/>
+export default ({ data }) => {
+  const { Description, Date, Discipline, Distance } = data.allResultsCsv.nodes[0];
 
-    <ReactTable
-      data={ data.races.results.sort(compareTimes) }
-      columns={[
-        {
-          Header: "General",
-          columns: [
-            {
-              Header: "Name",
-              id: "name",
-              accessor: d => <Link to={ `/${toSlug(d.name)}` }>{ toTitleCase(d.name) }</Link>,
-              width: 250
-            },
-            {
-              Header: "Category",
-              accessor: "category",
-              width: 100
-            },
-            {
-              Header: "Gender",
-              accessor: "gender",
-              width: 100
-            },
-            {
-              Header: "Time",
-              accessor: "time",
-              width: 150
-            }
-          ]
-        },
-        {
-          Header: 'Position',
-          columns: [
-            {
-              Header: "Overall",
-              accessor: "position",
-              width: 100
-            },
-            {
-              Header: "Category",
-              accessor: "category_position",
-              width: 100
-            },
-            {
-              Header: "Gender",
-              accessor: "gender_position",
-              width: 100
-            }
-          ]
-        }
-      ]}
-      defaultSorted={[
-        {
-          id: "position",
-          desc: false
-        }
-      ]}
-      defaultPageSize={15}
-      className="-striped -highlight"
-    />
+  const raceResults = data.allResultsCsv.nodes.map(result => {
+    const { Category_Position, Firstname, Gender, Surname, Time, fields: { athlete_slug: slug, Category } } = result;
+    return { Category, Category_Position, Gender, Time,  Name: `${Firstname} ${Surname}`, slug };
+  });
 
-    <Link to="/races/">Races</Link>
+  return (
+    <Layout>
+      <RaceReport raceResults={raceResults} Description={Description} Date={Date} Discipline={Discipline} Distance={Distance} />
 
-  </Layout>
-);
+      <ReactTable
+        data={raceResults.sort(compareTimes)}
+        columns={[
+          {
+            Header: "Name",
+            id: "Name",
+            accessor: d => <Link to={`/${d.slug}`}>{d.Name}</Link>,
+            width: 250
+          },
+          {
+            Header: "Time",
+            accessor: "Time",
+            width: 150
+          },
+          {
+            Header: "Category",
+            accessor: "Category",
+            width: 100
+          },
+          {
+            Header: "Category Position",
+            accessor: "Category_Position",
+            width: 200
+          }
+        ]}
+        defaultSorted={[
+          {
+            id: "Time",
+            desc: false
+          }
+        ]}
+        defaultPageSize={15}
+        className="-striped -highlight"
+      />
+
+      <Link to="/races/">Races</Link>
+
+    </Layout>
+  );
+};
 
 
 export const query = graphql`
-query($id: String!) {
-  races(id: { eq: $id }) {
-    name
-    distance
-    date
-    discipline
-    results {
-      name
-      category
-      gender
-      time
-      position
-      category_position
-      gender_position
+query($slug: String!) {
+  allResultsCsv(filter: {fields: {race_slug: {eq: $slug}}}) {
+    nodes {
+      Category_Position
+      Date(formatString: "")
+      Description
+      Discipline
+      Distance
+      Firstname
+      Gender
+      Surname
+      Time
+      fields {
+        athlete_slug
+        Category
+      }
     }
   }
 }`;

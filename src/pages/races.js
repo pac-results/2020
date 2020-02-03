@@ -4,65 +4,75 @@ import Layout from '../components/layout';
 import ReactTable from 'react-table';
 import 'react-table/react-table.css';
 
-export default ({ data }) => (
-  <Layout>
-    <h1>All races</h1>
+export default ({ data }) => {
+  let races = data.allResultsCsv.group.map(race => {
+    const details = race.nodes[0];
+    const { Description, Date, Discipline, Distance, fields: { race_slug: slug } } = details;
+    return { Description, Date, Discipline, Distance, slug };
+  });
 
-    <ReactTable
-      data={ data.allRaces.nodes }
-      columns={[
-        {
-          Header: "General",
-          columns: [
-            {
-              Header: "Date",
-              accessor: "date",
-              width: 150
-            },
-            {
-              Header: "Name",
-              id: "name",
-              accessor: d => <Link to={ `/${d.fields.slug}` }>{ d.name }</Link>,
-              width: 300
-            },
-            {
-              Header: "Distance",
-              accessor: "distance",
-              width: 100
-            },
-            {
-              Header: "Discipline",
-              accessor: "discipline",
-              width: 100
-            }
-          ]
-        }
-      ]}
-      defaultSorted={[
-        {
-          id: "date",
-          desc: false
-        }
-      ]}
-      defaultPageSize={15}
-      className="-striped -highlight"
-    />
+  return (
+    <Layout>
+      <h1>All races</h1>
 
-    <Link to="/">Go back to the homepage</Link>
-  </Layout>
-)
+      <ReactTable
+        data={races}
+        columns={[
+          {
+            Header: "General",
+            columns: [
+              {
+                Header: "Date",
+                accessor: "Date",
+                width: 150
+              },
+              {
+                Header: "Name",
+                id: "Description",
+                accessor: d => <Link to={`/${d.slug}`}>{d.Description}</Link>,
+                width: 300
+              },
+              {
+                Header: "Distance",
+                accessor: "Distance",
+                width: 100
+              },
+              {
+                Header: "Discipline",
+                accessor: "Discipline",
+                width: 100
+              }
+            ]
+          }
+        ]}
+        defaultSorted={[
+          {
+            id: "Date",
+            desc: false
+          }
+        ]}
+        defaultPageSize={15}
+        className="-striped -highlight"
+      />
+
+      <Link to="/">Go back to the homepage</Link>
+    </Layout>
+  );
+}
 
 export const query = graphql`
 {
-  allRaces {
-    nodes {
-      fields {
-        slug
+  allResultsCsv {
+    group(field: fields___race_slug) {
+      nodes {
+        fields {
+          race_slug
+        }
+        Description
+        Date(formatString: "")
+        Discipline
+        Distance
       }
-      name
-      date
-      distance
-      discipline
     }
   }
 }`;

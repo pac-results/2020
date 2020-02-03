@@ -7,12 +7,12 @@ import { compareStrings } from '../lib/utils';
 
 export default ({ data, pageContext }) => (
   <Layout>
-    { data.allRaces.nodes
-      .filter(race => race.date.match(new RegExp('-0' + pageContext.month + '-')))
-      .sort(compareStrings('date'))
-      .map(race => (
-      <RaceReport key={ race.fields.slug } race={race}/>
-    ))}
+    {/*{ data.allResultsCsv.group.nodes*/}
+    {/*  .filter(race => race.date.match(new RegExp('-0' + pageContext.month + '-')))*/}
+    {/*  .sort(compareStrings('Date'))*/}
+    {/*  .map(race => (*/}
+    {/*  <RaceReport key={ race.fields.slug } race={race}/>*/}
+    {/*))}*/}
 
     <Link to="/monthly_reports/">Monthly Reports</Link>
 
@@ -22,23 +22,23 @@ export default ({ data, pageContext }) => (
 
 export const query = graphql`
 query {
-  allRaces {
-    nodes {
-      fields {
-        slug
-      }
-      name
-      distance
-      date
-      discipline
-      results {
-        name
-        category
-        gender
-        time
-        position
-        category_position
-        gender_position
+  allResultsCsv {
+    group(field: fields___race_slug) {
+      nodes {
+        fields {
+          race_slug
+          Category
+        }
+        Description
+        Date(formatString: "")
+        Discipline
+        Distance
+        Long
+        Short
+        Time
+        Surname
+        Firstname
+        Category_Position
       }
     }
   }
