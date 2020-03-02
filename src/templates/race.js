@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 import { Link, graphql } from 'gatsby';
 import ReactTable from 'react-table';
 import 'react-table/react-table.css';
-import { compareTimes, toTitleCase, toSlug } from '../lib/utils';
+import { compareTimes } from '../lib/utils';
 import RaceReport from '../components/race_report';
 
 export default ({ data }) => {
@@ -11,12 +11,12 @@ export default ({ data }) => {
 
   const raceResults = data.allResultsCsv.nodes.map(result => {
     const { Category_Position, Firstname, Gender, Surname, Time, fields: { athlete_slug: slug, Category } } = result;
-    return { Category, Category_Position, Gender, Time,  Name: `${Firstname} ${Surname}`, slug };
+    return {  Description, Date, Discipline, Distance, Category, Category_Position, Surname, Firstname, Gender, Time,  Name: `${Firstname} ${Surname}`, slug, fields: { Category } };
   });
 
   return (
     <Layout>
-      <RaceReport raceResults={raceResults} Description={Description} Date={Date} Discipline={Discipline} Distance={Distance} />
+      <RaceReport race={raceResults} />
 
       <ReactTable
         data={raceResults.sort(compareTimes)}
