@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/pac",
+  pathPrefix: "/2020",
   siteMetadata: {
     title: `PAC Race Results and Athlete Summaries`,
     description: `Pinelands Athletic Club Race Results and Athlete Summaries`,
