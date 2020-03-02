@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && rm -rf docs && cp -rf public docs",
     "validate": "",
     "build": "gatsby build",
     "develop": "gatsby develop",
