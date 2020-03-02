@@ -96,5 +96,5 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   };
-  ['January'].map(createMonthlyReport);
+  ['January', 'February'].map(createMonthlyReport);
 };

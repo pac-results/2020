@@ -3,16 +3,16 @@ import Layout from '../components/layout';
 import { Link, graphql } from 'gatsby';
 import 'react-table/react-table.css';
 import RaceReport from '../components/race_report';
-import { compareStrings } from '../lib/utils';
+import { compareRaceDates } from '../lib/utils';
 
 export default ({ data, pageContext }) => (
   <Layout>
-    {/*{ data.allResultsCsv.group.nodes*/}
-    {/*  .filter(race => race.date.match(new RegExp('-0' + pageContext.month + '-')))*/}
-    {/*  .sort(compareStrings('Date'))*/}
-    {/*  .map(race => (*/}
-    {/*  <RaceReport key={ race.fields.slug } race={race}/>*/}
-    {/*))}*/}
+    { data.allResultsCsv.group
+      .map(race => race.nodes)
+      .filter(race => race[0].Date.match(new RegExp('-0' + pageContext.month + '-')))
+      .sort(compareRaceDates)
+      .map(race =>(<RaceReport key={race[0].fields.race_slug} race={race}/>))
+    }
 
     <Link to="/monthly_reports/">Monthly Reports</Link>
 
@@ -38,6 +38,7 @@ query {
         Time
         Surname
         Firstname
+        Gender
         Category_Position
       }
     }
