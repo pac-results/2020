@@ -54,8 +54,6 @@ export default ({ data }) => {
         defaultPageSize={15}
         className="-striped -highlight"
       />
-
-      <Link to="/">Go back to the homepage</Link>
     </Layout>
   );
 }

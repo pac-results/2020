@@ -51,9 +51,6 @@ export default ({ data }) => {
         defaultPageSize={15}
         className="-striped -highlight"
       />
-
-
-      <p><Link to="/">Go back to the homepage</Link></p>
     </Layout>
   );
 }
@@ -73,6 +70,3 @@ export const query = graphql`
     }
   }
 }`;
-//  allResultsCsv {
-//     distinct(field: fields___athlete_slug)
-//   }

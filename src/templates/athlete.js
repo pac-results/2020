@@ -14,6 +14,7 @@ export default ({ data }) => {
 
   return (
     <Layout>
+      <Link to="/athletes/">Athletes</Link>
       <h2>{ Firstname } { Surname }</h2>
       <ReactTable
         data={ raceResults }
@@ -59,9 +60,6 @@ export default ({ data }) => {
         defaultPageSize={15}
         className="-striped -highlight"
       />
-
-
-      <Link to="/athletes/">Athletes</Link>
     </Layout>
   );
 }
