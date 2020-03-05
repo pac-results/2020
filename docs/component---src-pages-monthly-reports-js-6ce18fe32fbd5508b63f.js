@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{PKBM:function(e,a,n){"use strict";n.r(a);var t=n("q1tI"),r=n.n(t),l=n("Wbzz"),u=n("Bl7J");a.default=function(){return r.a.createElement(u.a,null,r.a.createElement("p",null,r.a.createElement(l.a,{to:"/January/"},"January")),r.a.createElement("p",null,r.a.createElement(l.a,{to:"/February/"},"February")))}}}]);
+//# sourceMappingURL=component---src-pages-monthly-reports-js-6ce18fe32fbd5508b63f.js.map

@@ -33,7 +33,7 @@ export default ({ data }) => {
 
   return (
     <Layout>
-      <h1>Championship standings</h1>
+      <h1>Championship Standings</h1>
       <ReactTable
         data={bestResults}
         columns={[

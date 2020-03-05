@@ -4,6 +4,16 @@ export const toTitleCase = (str) =>
     (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()
   );
 
+export const compareTotals = (a, b) => {
+  if (parseFloat(a.Total, 10) < parseFloat(b.Total, 10)) {
+    return 1;
+  }
+  if (parseFloat(a.Total, 10) > parseFloat(b.Total, 10)) {
+    return -1;
+  }
+  return 0;
+};
+
 export const compareRaceDates = (a, b) => {
   if (a[0].Date < b[0].Date) {
     return -1;

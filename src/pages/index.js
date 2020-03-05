@@ -9,7 +9,8 @@ const IndexPage = () => (
     <p><Link to="/athletes/">Athletes</Link></p>
     <p><Link to="/races/">Races</Link></p>
     <p><Link to="/monthly_reports/">Monthly Reports</Link></p>
-    <p><Link to="/championship/">Championship standings</Link></p>
+    <p><Link to="/championship/">Championship Standings</Link></p>
+    <p><Link to="/adam_eve/">Adam and Eve Standings</Link></p>
   </Layout>
 );
 
